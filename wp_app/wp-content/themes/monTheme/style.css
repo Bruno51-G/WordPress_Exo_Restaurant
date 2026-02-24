@@ -1,0 +1,28 @@
+/*
+Theme Name: Pas de sushis
+*/
+
+:root{
+    --light: #FFFFFF;
+    --dark: #000000;
+    --premiere: #F3605F;
+    --deuxieme: #F59A63;
+    --troisieme:#F7C58F;
+    --quatrieme: #E8D5B5;
+    --cinquieme: #D4A5A5;
+}
+
+/* Réinitialisation des marges et des paddings pour tous les éléments */
+*{
+    box-sizing: border-box;
+}
+
+/* Utilisation de la police "Arial" pour tout le site */
+html{
+    font-size: 62.5%;
+}
+
+/* Style pour le corps de la page, avec une taille de police de 1.6rem (16px) */
+body{
+    font-size: 1.6rem;
+}
