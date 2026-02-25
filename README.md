@@ -14,3 +14,6 @@ userAdmin
 
 # Mot de passe
 yNvcl0savSrhygVHzt
+
+# police d'écriture
+Asimovian

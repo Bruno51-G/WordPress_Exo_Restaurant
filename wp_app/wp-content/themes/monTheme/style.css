@@ -1,5 +1,5 @@
 /*
-Theme Name: Pas de sushis
+Theme Name: Pas de Sushis
 */
 
 :root{
@@ -25,4 +25,11 @@ html{
 /* Style pour le corps de la page, avec une taille de police de 1.6rem (16px) */
 body{
     font-size: 1.6rem;
+    background-color: var(--quatrieme);
 }
+
+
+/* h1{
+    font-family: 'Asimovian', Arial, Helvetica, sans-serif;
+    color: var(--premiere);
+} */
