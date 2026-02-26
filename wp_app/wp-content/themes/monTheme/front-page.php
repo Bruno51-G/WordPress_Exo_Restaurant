@@ -2,7 +2,7 @@
 get_header();
 ?>
 
-<h1>INDEX.PHP</h1>
+<h1>FRONT-PAGE.PHP</h1>
 <div class="montheme-articles-grid">
 <?php 
     if(have_posts()): // si l'url appelé correspond à du contenu  (article, page, auteur, catégorie...)
@@ -24,6 +24,11 @@ get_header();
     endif;
 ?>
 </div>
+
+<aside>
+    <h3>SIDEBAR</h3>
+    <h4>Widgets</h4>
+</aside>
 
 <?php 
 get_footer();
