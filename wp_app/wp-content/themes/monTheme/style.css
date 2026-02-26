@@ -26,10 +26,75 @@ html{
 body{
     font-size: 1.6rem;
     background-color: var(--quatrieme);
+    padding-top:32px;
+    margin: 0;
 }
 
 
-/* h1{
+header{
+    position: relative;
+   /* background-image: url('./img/9f6ffa22-83eb-4cd9-b44f-b949f2ef285f.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--premiere);
+    font-family: 'Asimovian', Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 5rem;
+}
+
+header .bg {
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: -120px;
+    left: 0;
+    opacity: 50%;
+    z-index: 1;
+}
+
+header .logo, header p {
+    z-index:100;
+}
+
+
+.logoTitre{
+    /* background-color: #E8D5B599; */
+    -webkit-text-stroke: 3px var(--dark);
+    paint-order: stroke fill;
+}
+
+h1{
     font-family: 'Asimovian', Arial, Helvetica, sans-serif;
     color: var(--premiere);
-} */
+}
+
+.montheme-articles-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.montheme-article{
+    border: 1px solid var(--deuxieme);
+    padding: 10px;
+    flex: 1 1 calc(33.333% - 20px);
+    min-width: 250px;
+    max-width: 350px;
+    text-align: center;
+}
+
+.montheme-article div{
+    text-align: justify;
+}
+
+
+footer{
+    text-align: center;
+}
