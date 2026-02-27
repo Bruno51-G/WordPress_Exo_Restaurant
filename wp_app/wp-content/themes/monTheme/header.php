@@ -16,5 +16,10 @@
     <img class="logo" src="<?= get_stylesheet_directory_uri() ?>/img/wp_sushis_logo.jpg">
 </header>
 
+<?php wp_nav_menu([
+    'theme_location' => 'main'
+]) ?>
+
 <main>
 
+<!-- FIN HEADER -->
