@@ -11,7 +11,6 @@
 <body>
 
 <header>
-    <img class="bg" src="<?= get_stylesheet_directory_uri() ?>/img/9f6ffa22-83eb-4cd9-b44f-b949f2ef285f.jpg">
     <p class="logoTitre"><?php bloginfo('name'); ?></p>
     <img class="logo" src="<?= get_stylesheet_directory_uri() ?>/img/wp_sushis_logo.jpg">
 </header>
