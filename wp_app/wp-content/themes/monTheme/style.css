@@ -32,8 +32,6 @@ body{
     background-color: var(--quatrieme);
     padding-top:32px;
     margin: 0;
-    margin-left: 1rem;
-    margin-right: 1rem;
 }
 
 
@@ -61,11 +59,13 @@ header{
 .logoTitre{
     -webkit-text-stroke: 3px var(--dark);
     paint-order: stroke fill;
+    padding-left: 1rem;
 }
 
 h1{
     font-family: 'Asimovian', Arial, Helvetica, sans-serif;
     color: var(--premiere);
+    padding-left: 1rem;
 }
 
 .montheme-articles-grid{
@@ -95,11 +95,12 @@ footer{
 
 /* MENU */
 
-.menu{
+/* .menu{
     list-style: none;
     text-decoration: none;
     display:flex;
     padding: 0;
+    padding-left: 1rem;
     gap: 2rem;
     color: var(--dark);
     
@@ -116,6 +117,7 @@ footer{
     border-right: 3px solid var(--deuxieme);
     border-bottom: 3px solid var(--deuxieme);
     padding: 1rem;
+    transition: all ease .4s;
 }
 
 .menu a:hover{
@@ -125,11 +127,33 @@ footer{
     border-left: 3px solid var(--vert1);
     border-right: 3px solid var(--vert2);
     border-bottom: 3px solid var(--vert2);
-}
+} */
 
 /* FIN MENU */
 
-@media (max-width: 768px) {
+/* MENU ECRANS LARGES */
+
+@media all and (min-width:360px) {
+    .menu-menu-1-container{
+        display: none;
+    }
+}
+
+/* FIN MENU ECRANS LARGES */
+
+/* MENU VERSION MOBILE */
+
+.menu{
+    display: none;
+}
+
+.menu.active{
+    display: block;
+}
+
+/* FIN MENU VERSION MOBILE */
+
+/* @media (max-width: 768px) {
 
     header{
         display: flex;
@@ -146,4 +170,4 @@ footer{
 
 @media (max-width: 600px) {
     
-}
+} */

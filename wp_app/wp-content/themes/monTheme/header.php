@@ -6,18 +6,24 @@
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="stylesheet" href="<?= get_stylesheet_uri() ?>">
     <link href="https://fonts.googleapis.com/css2?family=Asimovian&display=swap" rel="stylesheet">
+    <script src="<?php echo get_stylesheet_directory_uri();?>/monscript.js" defer></script>
     <title>Document</title>
 </head>
-<body>
+<body <?php body_class(); ?>>
+
+<?php wp_body_open(); ?>
 
 <header>
     <p class="logoTitre"><?php bloginfo('name'); ?></p>
     <img class="logo" src="<?= get_stylesheet_directory_uri() ?>/img/wp_sushis_logo.jpg">
 </header>
 
-<?php wp_nav_menu([
-    'theme_location' => 'main'
-]) ?>
+<nav>
+    <a href="#" id="menuToggle">≡ MENU</a>
+    <?php wp_nav_menu([
+        'theme_location' => 'main'
+    ]) ?>
+</nav>
 
 <main>
 
