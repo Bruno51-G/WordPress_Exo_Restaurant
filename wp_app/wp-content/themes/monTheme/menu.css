@@ -1,0 +1,140 @@
+:root{
+    --light: #FFFFFF;
+    --dark: #000000;
+    --premiere: #F3605F;
+    --deuxieme: #F59A63;
+    --troisieme:#F7C58F;
+    --quatrieme: #E8D5B5;
+    --cinquieme: #D4A5A5;
+    --valide: #A0C94A;
+    --vert1: #1A4D2E;
+    --vert2: #E0EDC6;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    padding-top:46px;
+}
+
+/* MENU ÉCRANS LARGES */
+
+@media (min-width: 769px){
+    body{
+        padding-top: 32px;
+    }
+
+    #menuToggle{
+        display: none;
+    }
+
+    .menu{
+        list-style: none;
+        text-decoration: none;
+        display:flex;
+        padding: 0;
+        padding-left: 1rem;
+        gap: 2rem;
+        color: var(--dark);
+        
+    }
+
+    .menu a{
+        display: block;
+        text-decoration: none;
+        color: var(--dark);
+        font-size: 2.5rem;
+        font-family: 'Asimovian', Arial, Helvetica, sans-serif;
+        border-top: 3px solid var(--premiere);
+        border-left: 3px solid var(--premiere);
+        border-right: 3px solid var(--deuxieme);
+        border-bottom: 3px solid var(--deuxieme);
+        padding: 1rem;
+        transition: all ease .4s;
+    }
+
+    .menu a:hover{
+        background-color: var(--valide);
+        transform: scale(1.1);
+        border-top: 3px solid var(--vert1);
+        border-left: 3px solid var(--vert1);
+        border-right: 3px solid var(--vert2);
+        border-bottom: 3px solid var(--vert2);
+    } 
+}
+
+/* FIN MENU ÉCRANS LARGE */
+
+
+/* MENU VERSION MOBILE */
+
+@media (max-width: 768px){
+
+    
+    .logoTitre{
+        font-size: 3rem;
+    }
+
+    .logo{
+        width: 12rem;
+        height: 12rem;
+    }
+
+    #menuToggle{
+        text-decoration: none;
+        padding: 1rem;
+        color: var(--dark);
+        font-size: 5rem;
+    }
+
+    .menu{
+        /*display: none;*/
+        margin-left: -500px;
+        transition: all ease 1s;
+        overflow: hidden;
+        position: absolute;
+        background-color: var(--quatrieme);
+        list-style: none;
+        gap: 2rem;
+    }
+
+    .menu.active{
+        /* display: block;*/
+        margin-left: 0;
+    }
+
+    .menu a{
+        display: block;
+        text-decoration: none;
+        color: var(--dark);
+        font-size: 2.5rem;
+        font-family: 'Asimovian', Arial, Helvetica, sans-serif;
+        border-top: 3px solid var(--premiere);
+        border-left: 3px solid var(--premiere);
+        border-right: 3px solid var(--deuxieme);
+        border-bottom: 3px solid var(--deuxieme);
+        padding: 1rem;
+        transition: all ease .4s;
+    }
+
+        .menu a:hover{
+        background-color: var(--valide);
+        border-top: 3px solid var(--vert1);
+        border-left: 3px solid var(--vert1);
+        border-right: 3px solid var(--vert2);
+        border-bottom: 3px solid var(--vert2);
+    } 
+
+}
+
+
+
+/* FIN MENU VERSION MOBILE */
+

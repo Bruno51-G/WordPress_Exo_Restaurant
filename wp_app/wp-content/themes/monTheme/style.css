@@ -10,11 +10,11 @@ Theme Name: Pas de Sushis
     --troisieme:#F7C58F;
     --quatrieme: #E8D5B5;
     --cinquieme: #D4A5A5;
-    --valide: #BFF23D;
-    --vert1: #34C924;
+    --valide: #A0C94A;
+    --vert1: #1A4D2E;
     --vert2: #E0EDC6;
-
 }
+
 
 /* Réinitialisation des marges et des paddings pour tous les éléments */
 *{
@@ -30,7 +30,6 @@ html{
 body{
     font-size: 1.6rem;
     background-color: var(--quatrieme);
-    padding-top:32px;
     margin: 0;
 }
 
@@ -133,41 +132,9 @@ footer{
 
 /* MENU ECRANS LARGES */
 
-@media all and (min-width:360px) {
-    .menu-menu-1-container{
-        display: none;
-    }
-}
 
 /* FIN MENU ECRANS LARGES */
 
-/* MENU VERSION MOBILE */
 
-.menu{
-    display: none;
-}
 
-.menu.active{
-    display: block;
-}
 
-/* FIN MENU VERSION MOBILE */
-
-/* @media (max-width: 768px) {
-
-    header{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .menu{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media (max-width: 600px) {
-    
-} */

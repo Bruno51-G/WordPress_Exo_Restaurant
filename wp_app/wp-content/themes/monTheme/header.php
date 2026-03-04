@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="stylesheet" href="<?= get_stylesheet_uri() ?>">
+    <link rel="stylesheet" href="<?= get_stylesheet_directory_uri() ?>/menu.css">
     <link href="https://fonts.googleapis.com/css2?family=Asimovian&display=swap" rel="stylesheet">
-    <script src="<?php echo get_stylesheet_directory_uri();?>/monscript.js" defer></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/monscript.js" defer></script>
     <title>Document</title>
 </head>
 <body <?php body_class(); ?>>
@@ -19,7 +20,7 @@
 </header>
 
 <nav>
-    <a href="#" id="menuToggle">≡ MENU</a>
+    <a href="#" id="menuToggle">≡</a>
     <?php wp_nav_menu([
         'theme_location' => 'main'
     ]) ?>
