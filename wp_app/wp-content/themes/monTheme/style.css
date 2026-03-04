@@ -33,7 +33,6 @@ body{
     margin: 0;
 }
 
-
 header{
     position: relative;
     background:
@@ -75,11 +74,9 @@ h1{
 }
 
 .montheme-article{
-    border: 1px solid var(--deuxieme);
     padding: 10px;
     flex: 1 1 calc(33.333% - 20px);
-    min-width: 250px;
-    max-width: 350px;
+    width: 100%;
     text-align: center;
 }
 
@@ -88,9 +85,15 @@ h1{
 }
 
 
+
 footer{
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    background-color: var(--deuxieme);
+    padding-bottom: 5rem;
 }
+
 
 /* MENU */
 

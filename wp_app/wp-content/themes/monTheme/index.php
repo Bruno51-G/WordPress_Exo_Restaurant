@@ -13,7 +13,7 @@ get_header();
             <h1><?php the_title(); // affichage du titre ?></h1>
             <?php the_post_thumbnail('thumbnail'); ?>
             <div>
-                <?php the_excerpt(); // extrait du post ?> 
+                <?php the_content(); // extrait du post ?> 
             </div>
             
         </article>

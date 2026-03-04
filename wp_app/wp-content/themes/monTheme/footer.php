@@ -2,7 +2,7 @@
 </main>
 
 <footer>
-    Copyright CRM 2026
+    <p class="texteFooter">Copyright CRM 2026</p>
     <?php
         wp_nav_menu([
             'theme_location' => 'foot'

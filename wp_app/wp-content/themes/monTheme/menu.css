@@ -68,6 +68,16 @@ body{
         border-right: 3px solid var(--vert2);
         border-bottom: 3px solid var(--vert2);
     } 
+
+    footer .menu a{
+        border: none !important;
+        box-shadow: none !important;
+        font-size: 1.8rem;
+    }
+
+    footer .menu a:hover{
+        background-color: var(--troisieme) !important;
+    }
 }
 
 /* FIN MENU ÉCRANS LARGE */
