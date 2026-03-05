@@ -27,7 +27,7 @@ get_header();
 
 <aside>
     <h3>SIDEBAR</h3>
-    <h4>Widgets</h4>
+    <h4>Widgets <img class="imgWidjet" src="<?php echo get_template_directory_uri(); ?>/img/imgWidjet.png" alt="Img de Widjet (le dessin animé des années 90)"></h4>
 </aside>
 
 <?php 

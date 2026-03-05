@@ -66,6 +66,13 @@ h1{
     padding-left: 1rem;
 }
 
+.imgWidjet {
+    width: 100px;
+    height: auto;
+    vertical-align: middle;
+}
+
+
 .montheme-articles-grid{
     display: flex;
     flex-wrap: wrap;
@@ -139,5 +146,4 @@ footer{
 /* FIN MENU ECRANS LARGES */
 
 
-
-
+/* FIN DU FICHIER */
