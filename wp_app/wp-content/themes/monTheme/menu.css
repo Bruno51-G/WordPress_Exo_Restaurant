@@ -28,9 +28,7 @@ body{
 
 @media (min-width: 769px){
     
-    body{
-        padding-top: 32px;
-    }
+    
 
     #menuToggle{
         display: none;
