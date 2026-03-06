@@ -21,12 +21,13 @@ html{
 
 body{
     font-size: 1.6rem;
-    padding-top:46px;
+    
 }
 
 /* MENU ÉCRANS LARGES */
 
 @media (min-width: 769px){
+    
     body{
         padding-top: 32px;
     }

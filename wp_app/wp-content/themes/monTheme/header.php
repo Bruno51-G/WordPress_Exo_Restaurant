@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Asimovian&display=swap" rel="stylesheet">
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/monscript.js" defer></script>
     <title>Document</title>
+    <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
 
