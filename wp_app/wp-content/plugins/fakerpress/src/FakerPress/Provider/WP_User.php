@@ -129,7 +129,7 @@ class WP_User extends Base {
 	 * @since 0.6.2 Introduced type safety.
 	 *
 	 * @param string|null $pass
-	 * @param int		 $qty
+	 * @param int         $qty
 	 *
 	 * @return string|null
 	 */
@@ -150,7 +150,7 @@ class WP_User extends Base {
 	 * @since 0.1.0
 	 * @since 0.6.2 Introduced type safety.
 	 *
-	 * @param bool $html Whether to return HTML or plain text.
+	 * @param bool  $html Whether to return HTML or plain text.
 	 * @param array $args
 	 *
 	 * @return string|null
@@ -159,7 +159,7 @@ class WP_User extends Base {
 		$defaults = [
 			'qty' => [ 5, 15 ],
 		];
-		$args = wp_parse_args( $args, $defaults );
+		$args     = wp_parse_args( $args, $defaults );
 
 		if ( true === $html ) {
 			$content = implode( "\n", $this->generator->html_elements( $args ) );
@@ -192,7 +192,7 @@ class WP_User extends Base {
 		}
 
 		if ( ! is_null( $max ) ) {
-			// Unfortunatelly there is not such solution to this problem, we need to try and catch with DateTime
+			// Unfortunately there is not such solution to this problem, we need to try and catch with DateTime
 			try {
 				$max = new Chronos( $max );
 			} catch ( \Exception $e ) {

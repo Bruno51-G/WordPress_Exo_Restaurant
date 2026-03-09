@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Plugins - FakerPress - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-01-25 11:01:55+0000\n"
+"PO-Revision-Date: 2026-03-06 12:53:15+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/4.0.1\n"
+"X-Generator: GlotPress/4.0.3\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - FakerPress - Stable (latest release)\n"
 
@@ -956,10 +956,6 @@ msgstr "Angolie"
 msgid "American Samoa"
 msgstr "les Samoa am&eacute;ricaines"
 
-#: src/FakerPress/Utils.php:186
-msgid "Andorra"
-msgstr "Andore"
-
 #: src/FakerPress/Utils.php:166
 msgid "Åland Islands"
 msgstr "Åland"
@@ -1744,3 +1740,7 @@ msgstr "Entreprise"
 #: src/FakerPress/Admin/View/Changelog_View.php:24
 msgid "Changelog"
 msgstr "Journal des modifications"
+
+#: src/FakerPress/Utils.php:186
+msgid "Andorra"
+msgstr "Andorre"

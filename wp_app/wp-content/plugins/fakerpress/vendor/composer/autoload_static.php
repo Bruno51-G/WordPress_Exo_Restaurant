@@ -4,31 +4,21 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit50f12ce0c9f654811ab62a438ee63247
+class ComposerStaticInit46e05486257bc3dfbe40b34e0ebea8d6
 {
     public static $files = array (
-        'fa3de58b547e61bb6f7509ef1b3565d0' => __DIR__ . '/../..' . '/src/functions/container.php',
-        '0294eb11e5c3d538e54579e15eec6543' => __DIR__ . '/../..' . '/src/functions/date.php',
-        '710f0dc2cfef24945b5a56a51e58ffe3' => __DIR__ . '/../..' . '/src/functions/variables.php',
-        '6cf97cb39d94d83a6f29e2310cfadeab' => __DIR__ . '/../..' . '/src/functions/conditionals.php',
-        '665fc04e973d90410990feef503454ac' => __DIR__ . '/../..' . '/src/functions/sorting.php',
-        'f07b15c6c386491d1cf2e8d3721aff72' => __DIR__ . '/../..' . '/src/functions/assets.php',
+        '319b802a88e47f5bab6bc0dc8566d296' => __DIR__ . '/..' . '/prefixed/autoload.php',
     );
 
     public static $prefixLengthsPsr4 = array (
-        'F' => 
+        'F' =>
         array (
-            'FakerPress\\Dev\\' => 15,
             'FakerPress\\' => 11,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'FakerPress\\Dev\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/dev/src',
-        ),
-        'FakerPress\\' => 
+        'FakerPress\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src/FakerPress',
         ),
@@ -54,9 +44,6 @@ class ComposerStaticInit50f12ce0c9f654811ab62a438ee63247
         'FakerPress\\Contracts\\Container' => __DIR__ . '/../..' . '/src/FakerPress/Contracts/Container.php',
         'FakerPress\\Contracts\\Service_Provider' => __DIR__ . '/../..' . '/src/FakerPress/Contracts/Service_Provider.php',
         'FakerPress\\Dates' => __DIR__ . '/../..' . '/src/FakerPress/Dates.php',
-        'FakerPress\\Dev\\Readme' => __DIR__ . '/../..' . '/dev/src/Readme.php',
-        'FakerPress\\Dev\\Utils\\Slimdown' => __DIR__ . '/../..' . '/dev/src/Utils/Slimdown.php',
-        'FakerPress\\Dev\\WordPress_Readme_Parser' => __DIR__ . '/../..' . '/dev/src/WordPress_Readme_Parser.php',
         'FakerPress\\Exceptions\\Container_Exception' => __DIR__ . '/../..' . '/src/FakerPress/Exceptions/Container_Exception.php',
         'FakerPress\\Exceptions\\Not_Bound_Exception' => __DIR__ . '/../..' . '/src/FakerPress/Exceptions/Not_Bound_Exception.php',
         'FakerPress\\Field' => __DIR__ . '/../..' . '/src/FakerPress/Field.php',
@@ -86,6 +73,17 @@ class ComposerStaticInit50f12ce0c9f654811ab62a438ee63247
         'FakerPress\\Provider\\WP_Post' => __DIR__ . '/../..' . '/src/FakerPress/Provider/WP_Post.php',
         'FakerPress\\Provider\\WP_Term' => __DIR__ . '/../..' . '/src/FakerPress/Provider/WP_Term.php',
         'FakerPress\\Provider\\WP_User' => __DIR__ . '/../..' . '/src/FakerPress/Provider/WP_User.php',
+        'FakerPress\\REST\\Abstract_Endpoint' => __DIR__ . '/../..' . '/src/FakerPress/REST/Abstract_Endpoint.php',
+        'FakerPress\\REST\\Controller' => __DIR__ . '/../..' . '/src/FakerPress/REST/Controller.php',
+        'FakerPress\\REST\\Endpoints\\Attachments' => __DIR__ . '/../..' . '/src/FakerPress/REST/Endpoints/Attachments.php',
+        'FakerPress\\REST\\Endpoints\\Comments' => __DIR__ . '/../..' . '/src/FakerPress/REST/Endpoints/Comments.php',
+        'FakerPress\\REST\\Endpoints\\Documentation' => __DIR__ . '/../..' . '/src/FakerPress/REST/Endpoints/Documentation.php',
+        'FakerPress\\REST\\Endpoints\\Posts' => __DIR__ . '/../..' . '/src/FakerPress/REST/Endpoints/Posts.php',
+        'FakerPress\\REST\\Endpoints\\Terms' => __DIR__ . '/../..' . '/src/FakerPress/REST/Endpoints/Terms.php',
+        'FakerPress\\REST\\Endpoints\\Users' => __DIR__ . '/../..' . '/src/FakerPress/REST/Endpoints/Users.php',
+        'FakerPress\\REST\\Interface_Endpoint' => __DIR__ . '/../..' . '/src/FakerPress/REST/Interface_Endpoint.php',
+        'FakerPress\\REST\\OpenAPI' => __DIR__ . '/../..' . '/src/FakerPress/REST/OpenAPI.php',
+        'FakerPress\\REST\\Traits\\Handles_Batching' => __DIR__ . '/../..' . '/src/FakerPress/REST/Traits/Handles_Batching.php',
         'FakerPress\\Template' => __DIR__ . '/../..' . '/src/FakerPress/Template.php',
         'FakerPress\\Utils' => __DIR__ . '/../..' . '/src/FakerPress/Utils.php',
         'FakerPress\\Utils\\Assets' => __DIR__ . '/../..' . '/src/FakerPress/Utils/Assets.php',
@@ -94,9 +92,9 @@ class ComposerStaticInit50f12ce0c9f654811ab62a438ee63247
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit50f12ce0c9f654811ab62a438ee63247::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit50f12ce0c9f654811ab62a438ee63247::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit50f12ce0c9f654811ab62a438ee63247::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit46e05486257bc3dfbe40b34e0ebea8d6::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit46e05486257bc3dfbe40b34e0ebea8d6::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit46e05486257bc3dfbe40b34e0ebea8d6::$classMap;
 
         }, null, ClassLoader::class);
     }

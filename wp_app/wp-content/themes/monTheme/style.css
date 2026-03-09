@@ -33,7 +33,7 @@ body{
     margin: 0;
 }
 
-header{
+.site-header{
     position: relative;
     background:
     linear-gradient(
@@ -64,6 +64,11 @@ h1{
     font-family: 'Asimovian', Arial, Helvetica, sans-serif;
     color: var(--premiere);
     padding-left: 1rem;
+}
+
+.montheme-article img{
+    width: 100%;
+    height: auto;
 }
 
 .imgWidjet {
@@ -102,48 +107,33 @@ footer{
 }
 
 
-/* MENU */
+/* SIDEBAR */
 
-/* .menu{
-    list-style: none;
-    text-decoration: none;
-    display:flex;
-    padding: 0;
-    padding-left: 1rem;
-    gap: 2rem;
-    color: var(--dark);
-    
+@media (min-width: 1024px){
+    main{
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    h1{
+        flex-basis: 100%;
+    }
+
+    .montheme-articles-grid{
+        width: 900px;
+        border: 1px solid var(--deuxieme);
+    }
+
+    main > aside{
+        border: 1px solid var(--deuxieme);
+        width: 240px;
+        list-style-type: none;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
-
-.menu a{
-    display: block;
-    text-decoration: none;
-    color: var(--dark);
-    font-size: 2.5rem;
-    font-family: 'Asimovian', Arial, Helvetica, sans-serif;
-    border-top: 3px solid var(--premiere);
-    border-left: 3px solid var(--premiere);
-    border-right: 3px solid var(--deuxieme);
-    border-bottom: 3px solid var(--deuxieme);
-    padding: 1rem;
-    transition: all ease .4s;
-}
-
-.menu a:hover{
-    background-color: var(--valide);
-    transform: scale(1.1);
-    border-top: 3px solid var(--vert1);
-    border-left: 3px solid var(--vert1);
-    border-right: 3px solid var(--vert2);
-    border-bottom: 3px solid var(--vert2);
-} */
-
-/* FIN MENU */
-
-/* MENU ECRANS LARGES */
-
-
-/* FIN MENU ECRANS LARGES */
-
 
 /* FIN DU FICHIER */

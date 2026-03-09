@@ -11,7 +11,7 @@ get_header();
     ?>
         <article class="montheme-article"> 
             <h1><?php the_title(); // affichage du titre ?></h1>
-            <?php the_post_thumbnail('thumbnail'); ?>
+            <?php the_post_thumbnail('large'); ?>
             <div>
                 <?php the_content(); // extrait du post ?> 
             </div>
@@ -28,6 +28,9 @@ get_header();
 <aside>
     <h3>SIDEBAR</h3>
     <h4>Widgets <img class="imgWidjet" src="<?php echo get_template_directory_uri(); ?>/img/imgWidjet.png" alt="Img de Widjet (le dessin animé des années 90)"></h4>
+    <?php
+        dynamic_sidebar('main-sidebar');
+    ?>
 </aside>
 
 <?php 

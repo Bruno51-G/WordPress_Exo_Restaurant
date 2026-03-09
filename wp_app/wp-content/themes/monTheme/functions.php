@@ -17,6 +17,14 @@ function bg_theme_menu_sidebar()
         'main' => 'Menu principal',
         'foot' => 'Menu Bas de page'
     ]);
+
+    register_sidebar([
+        'id' => 'main-sidebar',
+        'name' => 'Sidebar Accueil',
+        'before_widjet' => '<div class= "theme-widjet">',
+        'after_widjet' => '</div>'
+
+    ]);
 }
 
 add_action('init', 'bg_theme_menu_sidebar');

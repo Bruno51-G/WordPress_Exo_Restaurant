@@ -10,7 +10,7 @@ get_header();
             the_post(); // on charge les données du contenu
     ?>
         <article class="montheme-article"> 
-            <h1><?php the_title(); // affichage du titre ?></h1>
+            <h1><a href="<?php the_permalink(); ?>"><?php the_title(); // affichage du titre ?></a></h1>
             <?php the_post_thumbnail('thumbnail'); ?>
             <div>
                 <?php the_excerpt(); // extrait du post ?> 

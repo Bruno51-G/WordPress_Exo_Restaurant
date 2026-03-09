@@ -15,7 +15,7 @@
 
 <?php wp_body_open(); ?>
 
-<header>
+<header class="site-header">
     <p class="logoTitre"><?php bloginfo('name'); ?></p>
     <img class="logo" src="<?= get_stylesheet_directory_uri() ?>/img/wp_sushis_logo.jpg">
 </header>

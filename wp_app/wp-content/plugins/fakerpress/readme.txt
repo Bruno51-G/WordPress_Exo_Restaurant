@@ -4,7 +4,7 @@ Tags:              generator, dummy content, lorem ipsun, testing, developer
 Requires at least: 5.5
 Tested up to:      6.8.1
 Requires PHP:      8.1
-Stable tag:        0.8.0
+Stable tag:        0.9.0
 License:           GPLv2 or later
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 Donate link:       https://fakerpress.com/r/sponsor
@@ -17,7 +17,7 @@ Whenever you create a new Theme or Plugin you will always need to create custom 
 
 Our goal with this plugin is to fill this gap where you have problem with a good solution both for Developers and for Users of WordPress.
 
-> **Note: This plugin requires PHP 7.4 or higher to be activated.**
+> **Note: This plugin requires PHP 8.1 or higher to be activated.**
 
 [**Checkout our GitHub Repository**](http://fakerpress.com/r/github)
 
@@ -34,6 +34,7 @@ Our goal with this plugin is to fill this gap where you have problem with a good
 * Categories
 * Comments
 * Custom Comment Types
+* Attachments (NEW)
 
 = Creating Dummy Content =
 Normally a WordPress developer will need to perform the task of filling up an empty theme with dummy content, and doing this manually can be really time consuming, the main reasons this plugin was create was to speed up this process.
@@ -61,6 +62,12 @@ For creating and assigning the terms you will have a much better tool that will 
 
 = Real random User profiles =
 If you fill up your WordPress with any data for the user profiles you might not catch an edge case, this plugin will fill up the fields with data that will really matter in the tests.
+
+= Modern REST API =
+FakerPress now includes a comprehensive REST API for programmatic content generation. All modules support REST endpoints with batching capabilities for large-scale generation. Full OpenAPI documentation is available at `/wp-json/fakerpress/v1/docs`.
+
+= Generate Attachments =
+Create realistic image attachments with customizable dimensions, multiple image providers (Placehold.co, Lorem Picsum), and automatic generation of alt text, captions, and descriptions. All images include proper attribution - Lorem Picsum images credit the original Unsplash photographers.
 
 = Types of Meta Included =
 * Attachment
@@ -98,6 +105,33 @@ Great! There are several ways you can get involved to help make FakerPress bette
 Thank you for wanting to make FakerPress better for everyone! [We salute you](https://www.youtube.com/watch?v=8fPf6L0XNvM).
 
 == Changelog ==
+
+= 0.9.0 &mdash; 9 of March 2026 =
+
+* Feature - Complete REST API implementation replacing legacy AJAX system
+* Feature - Add comprehensive REST API endpoints for all modules (Posts, Users, Terms, Comments, Attachments)
+* Feature - Implement attachment generation with support for multiple image providers (Placehold.co, Lorem Picsum)
+* Feature - Add batching support for large data generation requests
+* Feature - Include OpenAPI documentation at `/wp-json/fakerpress/v1/docs`
+* Feature - Add attachment admin interface with customizable image dimensions and content options
+* Feature - Include automatic attribution for all generated images (Lorem Picsum credits Unsplash photographers, Placehold.co credited in captions)
+* Enhancement - Modernize JavaScript to ES6 with proper module structure
+* Enhancement - Implement proper REST authentication with wp_rest nonce verification
+* Enhancement - Add standardized error handling and validation across all endpoints
+* Enhancement - Support for generating alt text, captions, and descriptions for attachments
+* Fix - Ensure PNG format for placeholder images to avoid SVG compatibility issues
+* Fix - Fix JavaScript errors with missing field validation
+* Fix - Correct dropdown population for non-multiple select fields
+* Fix - Translate REST API parameter names to module format for Posts (`post_type`), Terms (`taxonomy`), Users (`role`), and Comments (`comment_status`)
+* Fix - Allow `post_status` parameter to be passed through REST API instead of hardcoding to `publish`
+* Fix - Map REST `comment_status` values (`hold`, `approve`, `spam`, `trash`) to WordPress `comment_approved` format
+* Fix - Prevent null `$metas` foreach crash in Term module when no meta is provided via REST API
+* Fix - Handle null `name_size` in Term module to use provider default instead of generating empty term names
+* Fix - Write mock image body to temp file in Attachment tests to support `download_url()` stream mode
+* Fix - Pass DI container to Controller constructor in filter test to prevent `ArgumentCountError`
+* Tweak - Improve parse_request methods across all modules with better type safety
+* Tweak - Add internationalization support for JavaScript files
+* Tweak - Replace font icon with SVG icon for WordPress admin menu
 
 = 0.8.0 &mdash; 20 of May 2025 =
 
@@ -300,7 +334,7 @@ Thank you for wanting to make FakerPress better for everyone! [We salute you](ht
 = 0.3.2 &mdash; 25 of May, 2015 =
 
 * New: Including LoremPixel as a Image Provider &mdash; Thanks [examinedliving](https://github.com/examinedliving)
-* Fix: A few JavaScript/jQuery tweeks for better Select2 Handling on Dates
+* Fix: A few JavaScript/jQuery tweaks for better Select2 Handling on Dates
 * Fix: Intervals now have a better Handling for non-timed Strings &mdash; Thanks [alfiemx_](https://profiles.wordpress.org/alfiemx_)
 * Fix: Better verification of Carbon inclusion &mdash; Thanks [Frankie Jarrett](https://profiles.wordpress.org/fjarrett/)
 * Fix: Closures now using self variables better, prevents Fatal Error &mdash; Thanks [fccoelho7](https://profiles.wordpress.org/fccoelho7/)

@@ -24,8 +24,12 @@ get_header();
             <div>
                 <?php the_content(); // extrait du post ?> 
             </div>
-            
+            <aside>
+                <?php comments_template(); ?>
+            </aside>
         </article>
+
+
     <?php
         endwhile;
     else: 

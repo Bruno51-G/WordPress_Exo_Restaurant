@@ -1,6 +1,14 @@
 <?xml version="1.0"?>
 <ruleset name="FakerPress Coding Standards">
-	<rule ref="WordPress-VIP-Go"/>
+	<file>src/</file>
+	<file>fakerpress.php</file>
+
+	<arg name="extensions" value="php"/>
+
+	<rule ref="WordPress-VIP-Go">
+		<exclude name="WordPressVIPMinimum.JS"/>
+		<exclude name="Generic.Debug.JSHint"/>
+	</rule>
 	<rule ref="WordPress-Extra"/>
 	<rule ref="WordPress-Core"/>
 	<rule ref="WordPress-Docs">

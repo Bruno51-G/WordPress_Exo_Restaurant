@@ -35,6 +35,8 @@ get_header();
     else: 
         echo 'Aucun contenu';
     endif;
+
+    posts_nav_link();
 ?>
 </div>
 

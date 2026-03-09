@@ -31,7 +31,7 @@ class WP_Meta extends Base {
 	 * @return int
 	 */
 	private function meta_parse_qty( $qty, $elements = null ) {
-		$qty = array_values( (array) $qty );
+		$qty  = array_values( (array) $qty );
 		$_qty = array_filter( $qty );
 		$min  = reset( $_qty );
 
@@ -132,10 +132,12 @@ class WP_Meta extends Base {
 		$qty      = $this->meta_parse_qty( $qty );
 		$elements = explode( ',', $elements );
 
-		$value = $this->generator->optional( $weight / 100, null )->html_elements( [
-			'elements' => $elements,
-			'qty'      => $qty,
-		] );
+		$value = $this->generator->optional( $weight / 100, null )->html_elements(
+			[
+				'elements' => $elements,
+				'qty'      => $qty,
+			] 
+		);
 
 		if ( is_null( $value ) ) {
 			return $value;
@@ -159,9 +161,7 @@ class WP_Meta extends Base {
 			return null;
 		}
 
-		$value = $this->generator->optional( $weight / 100, null )->randomElement( (array) $query->posts );
-
-		return $value;
+		return $this->generator->optional( $weight / 100, null )->randomElement( (array) $query->posts );
 	}
 
 	public function meta_type_attachment( $type, $providers, $weight = 50, $width = [], $height = [] ) {
@@ -211,27 +211,19 @@ class WP_Meta extends Base {
 	}
 
 	public function meta_type_lexify( $template, $weight = 50 ) {
-		$value = $this->generator->optional( $weight / 100, null )->bothify( (string) $template );
-
-		return $value;
+		return $this->generator->optional( $weight / 100, null )->bothify( (string) $template );
 	}
 
 	public function meta_type_asciify( $template, $weight = 50 ) {
-		$value = $this->generator->optional( $weight / 100, null )->asciify( (string) $template );
-
-		return $value;
+		return $this->generator->optional( $weight / 100, null )->asciify( (string) $template );
 	}
 
 	public function meta_type_regexify( $template, $weight = 50 ) {
-		$value = $this->generator->optional( $weight / 100, null )->regexify( (string) $template );
-
-		return $value;
+		return $this->generator->optional( $weight / 100, null )->regexify( (string) $template );
 	}
 
 	public function meta_type_timezone( $weight = 50 ) {
-		$value = $this->generator->optional( $weight / 100, null )->timezone;
-
-		return $value;
+		return $this->generator->optional( $weight / 100, null )->timezone();
 	}
 
 	public function meta_type_company( $template, $weight = 50 ) {
@@ -252,16 +244,16 @@ class WP_Meta extends Base {
 				[ $element, $term ] = $_parsed;
 				switch ( $term ) {
 					case 'suffix':
-						$text[] = $this->generator->companySuffix;
+						$text[] = $this->generator->companySuffix();
 						break;
 					case 'company':
-						$text[] = $this->generator->company;
+						$text[] = $this->generator->company();
 						break;
 					case 'bs':
-						$text[] = $this->generator->bs;
+						$text[] = $this->generator->bs();
 						break;
 					case 'catch_phrase':
-						$text[] = $this->generator->catchPhrase;
+						$text[] = $this->generator->catchPhrase();
 						break;
 				}
 			} else {
@@ -269,9 +261,7 @@ class WP_Meta extends Base {
 			}
 		}
 
-		$value = $this->generator->optional( $weight / 100, null )->randomElement( (array) implode( '', $text ) );
-
-		return $value;
+		return $this->generator->optional( $weight / 100, null )->randomElement( (array) implode( '', $text ) );
 	}
 
 	public function meta_type_person( $template, $gender = 'female', $weight = 50 ) {
@@ -298,10 +288,10 @@ class WP_Meta extends Base {
 						$text[] = $this->generator->firstName( $gender );
 						break;
 					case 'last_name':
-						$text[] = $this->generator->lastName;
+						$text[] = $this->generator->lastName();
 						break;
 					case 'suffix':
-						$text[] = $this->generator->suffix;
+						$text[] = $this->generator->suffix();
 						break;
 				}
 			} else {
@@ -309,9 +299,7 @@ class WP_Meta extends Base {
 			}
 		}
 
-		$value = $this->generator->optional( $weight / 100, null )->randomElement( (array) implode( '', $text ) );
-
-		return $value;
+		return $this->generator->optional( $weight / 100, null )->randomElement( (array) implode( '', $text ) );
 	}
 
 	public function meta_type_geo( $template, $weight = 50 ) {
@@ -343,52 +331,52 @@ class WP_Meta extends Base {
 				[ $element, $term ] = $_parsed;
 				switch ( $term ) {
 					case 'country':
-						$text[] = $this->generator->country;
+						$text[] = $this->generator->country();
 						break;
 					case 'country_code':
-						$text[] = Utils::get_country_alpha_code( $this->generator->country, 2 );
+						$text[] = Utils::get_country_alpha_code( $this->generator->country(), 2 );
 						break;
 					case 'country_abbr':
-						$text[] = Utils::get_country_alpha_code( $this->generator->country, 3 );
+						$text[] = Utils::get_country_alpha_code( $this->generator->country(), 3 );
 						break;
 					case 'city_prefix':
-						$text[] = $this->generator->cityPrefix;
+						$text[] = $this->generator->cityPrefix();
 						break;
 					case 'city_suffix':
-						$text[] = $this->generator->citySuffix;
+						$text[] = $this->generator->citySuffix();
 						break;
 					case 'city':
-						$text[] = $this->generator->city;
+						$text[] = $this->generator->city();
 						break;
 					case 'state':
-						$text[] = $this->generator->state;
+						$text[] = $this->generator->state();
 						break;
 					case 'state_abbr':
-						$text[] = $this->generator->stateAbbr;
+						$text[] = $this->generator->stateAbbr();
 						break;
 					case 'address':
-						$text[] = $this->generator->address;
+						$text[] = $this->generator->address();
 						break;
 					case 'secondary_address':
-						$text[] = $this->generator->secondaryAddress;
+						$text[] = $this->generator->secondaryAddress();
 						break;
 					case 'building_number':
-						$text[] = $this->generator->buildingNumber;
+						$text[] = $this->generator->buildingNumber();
 						break;
 					case 'street_name':
-						$text[] = $this->generator->streetName;
+						$text[] = $this->generator->streetName();
 						break;
 					case 'street_address':
-						$text[] = $this->generator->streetAddress;
+						$text[] = $this->generator->streetAddress();
 						break;
 					case 'postalcode':
-						$text[] = $this->generator->postcode;
+						$text[] = $this->generator->postcode();
 						break;
 					case 'latitude':
-						$text[] = $this->generator->latitude;
+						$text[] = $this->generator->latitude();
 						break;
 					case 'longitude':
-						$text[] = $this->generator->longitude;
+						$text[] = $this->generator->longitude();
 						break;
 				}
 			} else {
@@ -396,9 +384,7 @@ class WP_Meta extends Base {
 			}
 		}
 
-		$value = $this->generator->optional( $weight / 100, null )->randomElement( (array) implode( '', $text ) );
-
-		return $value;
+		return $this->generator->optional( $weight / 100, null )->randomElement( (array) implode( '', $text ) );
 	}
 
 	public function meta_type_date( $interval, $format = 'Y-m-d H:i:s', $weight = 50 ) {
@@ -433,33 +419,23 @@ class WP_Meta extends Base {
 
 		$selected = $this->generator->dateTimeBetween( (string) $min, (string) $max )->format( $format );
 
-		$value = $this->generator->optional( $weight / 100, null )->randomElement( (array) $selected );
-
-		return $value;
+		return $this->generator->optional( $weight / 100, null )->randomElement( (array) $selected );
 	}
 
 	public function meta_type_ip( $weight = 50 ) {
-		$value = $this->generator->optional( $weight / 100, null )->ipv4;
-
-		return $value;
+		return $this->generator->optional( $weight / 100, null )->ipv4();
 	}
 
 	public function meta_type_domain( $weight = 50 ) {
-		$value = $this->generator->optional( $weight / 100, null )->domainName;
-
-		return $value;
+		return $this->generator->optional( $weight / 100, null )->domainName();
 	}
 
 	public function meta_type_email( $weight = 50 ) {
-		$value = $this->generator->optional( $weight / 100, null )->email;
-
-		return $value;
+		return $this->generator->optional( $weight / 100, null )->email();
 	}
 
 	public function meta_type_user_agent( $weight = 50 ) {
-		$value = $this->generator->optional( $weight / 100, null )->userAgent;
-
-		return $value;
+		return $this->generator->optional( $weight / 100, null )->userAgent();
 	}
 
 	public function meta_type_raw( $weight = 100, $value = null, $default = null ) {
@@ -468,7 +444,5 @@ class WP_Meta extends Base {
 		} else {
 			return $default;
 		}
-
 	}
-
 }
