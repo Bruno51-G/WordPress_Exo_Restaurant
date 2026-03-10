@@ -71,6 +71,10 @@ h1{
     height: auto;
 }
 
+.vcard img {
+    width: auto;
+}
+
 .imgWidjet {
     width: 100px;
     height: auto;
@@ -134,6 +138,43 @@ footer{
         padding-left: 10px;
         padding-right: 10px;
     }
+}
+
+/* COMMENTAIRE */
+
+.comment-form-comment{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-submit{
+    margin-left: 40%;
+}
+
+.submit{
+    padding: 1rem;
+    border: 2px solid var(--premiere);
+    color: var(--premiere);
+    cursor: pointer;
+    background-color: var(--quatrieme);
+    transition: all ease .4s;
+}
+
+.submit:hover{
+    background-color: var(--light);
+    transform: scale(1.1);
+}
+
+.comments-link {
+    text-align: center;
+    display: block;
+    transition: all ease .4s;
+}
+
+.comments-link:hover {
+    color: var(--deuxieme);
+    background-color: var(--vert2);
+    transform: scale(1.05);
 }
 
 /* FIN DU FICHIER */
