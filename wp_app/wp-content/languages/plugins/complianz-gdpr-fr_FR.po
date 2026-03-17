@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Complianz &#8211; GDPR/CCPA Cookie Consent - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-12-16 17:48:36+0000\n"
+"PO-Revision-Date: 2026-03-16 13:21:36+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,7 +11,36 @@ msgstr ""
 "Language: fr\n"
 "Project-Id-Version: Plugins - Complianz &#8211; GDPR/CCPA Cookie Consent - Stable (latest release)\n"
 
-#: settings/config/fields-notices.php:206
+#: cookiebanner/settings.php:542 cookiebanner/settings.php:603
+#: cookiebanner/settings.php:724
+msgid "Accessibility"
+msgstr "Accessibilité"
+
+#: config/config-i18n.php:294
+msgid "Rhode Island (DTPPA)"
+msgstr "Rhode Island (DTPPA)"
+
+#: config/config-i18n.php:293
+msgid "Kentucky (KCDPA)"
+msgstr "Kentucky (KCDPA)"
+
+#: config/config-i18n.php:292
+msgid "Indiana (ICDPA)"
+msgstr "Indiana (ICDPA)"
+
+#: config/config-i18n.php:291
+msgid "Maryland (MODPA)"
+msgstr "Maryland (MODPA)"
+
+#: config/config-i18n.php:290
+msgid "Minnesota (MCDPA)"
+msgstr "Minnesota (MCDPA)"
+
+#: config/config-i18n.php:289
+msgid "Tennessee (TIPA)"
+msgstr "Tennessee (TIPA)"
+
+#: settings/config/fields-notices.php:220
 msgid "Clarity Consent Mode V2"
 msgstr "Consent Mode Clarity V2"
 
@@ -31,11 +60,11 @@ msgstr ""
 "Vous avez activé TCF. Veuillez vérifier les choses à faire et ne pas faire concernant les personnalisations :\n"
 "\t\t                     <a href='https://complianz.io/customizing-the-tcf-banner/?utm_source=tipstricks&utm_medium=plugin&utm_campaign=articles&utm_id=66&utm_content=tcf' target='_blank' aria-label='Read more about TCF customization guidelines'>Read more about TCF customization guidelines</a>"
 
-#: functions.php:1995
+#: functions.php:1997
 msgid "Read more about %s service on Cookie Database"
 msgstr "En savoir plus sur le service %s de la base de données de cookies"
 
-#: DNSMPD/class-admin-DNSMPD.php:388
+#: DNSMPD/class-admin-DNSMPD.php:391
 msgid "No date available"
 msgstr "Aucune date disponible"
 
@@ -43,7 +72,7 @@ msgstr "Aucune date disponible"
 msgid "Read more about TCF purposes on Cookie Database"
 msgstr "En savoir plus sur les finalités de TCF de la base de données de cookies"
 
-#: class-admin.php:327 class-admin.php:328 functions.php:1994
+#: class-admin.php:327 class-admin.php:328 functions.php:1996
 msgid "Read more about %s"
 msgstr "En savoir plus sur %s"
 
@@ -51,11 +80,11 @@ msgstr "En savoir plus sur %s"
 msgid "this topic"
 msgstr "ce sujet"
 
-#: settings/settings.php:643
+#: settings/settings.php:648
 msgid "A simple, but in-depth wizard will configure a Terms and Conditions page for your website or for those of your clients."
 msgstr "Un assistant simple, mais approfondi configurera une page Conditions générales pour votre site web ou pour ceux de vos clients."
 
-#: settings/settings.php:642
+#: settings/settings.php:647
 msgid "Configure your own Terms and Conditions."
 msgstr "Configurez vos propres Conditions générales."
 
@@ -552,16 +581,16 @@ msgstr "Médiathèque"
 
 #: settings/config/menu.php:440 settings/config/menu.php:447
 #: settings/config/menu.php:467
-msgid "View and manage Records of Consent with %1$sComplianz GDPR Premium%2$s"
-msgstr "Voir et gérer les recueils de consentement avec %1$sComplianz GDPR Premium%2$s"
+msgid "View and manage Records of Consent with %sComplianz GDPR Premium%s"
+msgstr "Voir et gérer les recueils de consentement avec %sComplianz GDPR Premium%s"
 
 #: settings/config/menu.php:406
-msgid "View and manage Data Breach Reports with %1$sComplianz GDPR Premium%2$s"
-msgstr "Voir et gérer les rapports sur les violations de données avec %1$sComplianz GDPR Premium%2$s"
+msgid "View and manage Data Breach Reports with %sComplianz GDPR Premium%s"
+msgstr "Voir et gérer les rapports sur les violations de données avec %sComplianz GDPR Premium%s"
 
 #: settings/config/menu.php:399
-msgid "Create Data Breach Reports with %1$sComplianz GDPR Premium%2$s"
-msgstr "Créez des rapports sur les violations de données avec %1$sComplianz GDPR Premium%2$s"
+msgid "Create Data Breach Reports with %sComplianz GDPR Premium%s"
+msgstr "Créez des rapports sur les violations de données avec %sComplianz GDPR Premium%s"
 
 #: settings/config/menu.php:394
 msgid "Create Data Breach Reports"
@@ -571,7 +600,7 @@ msgstr "Créer des rapports de violation de données"
 msgid "Data Breach Reports"
 msgstr "Rapport de violation de données"
 
-#: websitescan/class-wsc-settings.php:168
+#: settings/config/menu.php:382 websitescan/class-wsc-settings.php:168
 msgid "View and manage Processing Agreements with %sComplianz GDPR Premium%s"
 msgstr "Voir et gérer les accords de traitement avec %sComplianz GDPR Premium%s"
 
@@ -616,12 +645,12 @@ msgid "These are the main options to customize your consent banner. To go even f
 msgstr "Ce sont les principales options pour personnaliser votre bannière de consentement. Pour aller plus loin, vous pouvez utiliser notre documentation sur complianz.io pour des leçons CSS, ou même partir de zéro et créer votre propre bannière avec seulement du HTML et du CSS."
 
 #: settings/config/menu.php:301
-msgid "Get premium support with %1$sComplianz GDPR Premium%2$s"
-msgstr "Obtenez un support premium avec %1$sComplianz GDPR Premium%2$s"
+msgid "Get premium support with %sComplianz GDPR Premium%s"
+msgstr "Obtenez un support premium avec %sComplianz GDPR Premium%s"
 
 #: settings/config/menu.php:374
-msgid "Create Processing Agreements with %1$sComplianz GDPR Premium%2$s"
-msgstr "Créez des accords de traitement avec %1$sComplianz GDPR Premium%2$s"
+msgid "Create Processing Agreements with %sComplianz GDPR Premium%s"
+msgstr "Créez des accords de traitement avec %sComplianz GDPR Premium%s"
 
 #: settings/config/menu.php:142
 msgid "The below questions will help you configure a vendor list of your choosing. Only vendors that adhere to the purposes and special features you configure will be able to serve ads."
@@ -889,11 +918,11 @@ msgstr "Erreurs pertinentes possibles"
 msgid "Safe Mode"
 msgstr "Mode sans échec"
 
-#: settings/config/fields/tools/security.php:14 settings/settings.php:654
+#: settings/config/fields/tools/security.php:14 settings/settings.php:659
 msgid "Leverage your SSL certificate to the fullest, with health checks, security headers, hardening, vulnerability detection and more."
 msgstr "Exploitez pleinement votre certificat SSL grâce aux contrôles de santé, aux en-têtes de sécurité, au durcissement, à la détection des vulnérabilités et plus."
 
-#: settings/config/fields/tools/security.php:12 settings/settings.php:653
+#: settings/config/fields/tools/security.php:12 settings/settings.php:658
 msgid "Lightweight plugin. Heavyweight security features."
 msgstr "Extension légère. De puissantes fonctionnalités de sécurité."
 
@@ -1156,7 +1185,8 @@ msgstr "Notification par Complianz"
 msgid "This email is part of the Complianz Notification System"
 msgstr "Cet e-mail fait partie du système de notification de Complianz."
 
-#: integrations/plugins/google-site-kit.php:26
+#. translators: %s is the plugin name.
+#: integrations/plugins/google-site-kit.php:27
 msgid "Because you're using %s, you can choose which plugin should insert the relevant snippet. If you want to use Google Consent Mode, you can only use the default, advanced mode. You can read more about configuring SiteKit and the different Consent Mode below."
 msgstr "Comme vous utilisez %s, vous pouvez choisir l’extension qui insérera l’extrait pertinent. Si vous souhaitez utiliser le mode de consentement Google, vous ne pouvez utiliser que le mode avancé par défaut. Vous pouvez en savoir plus sur la configuration de SiteKit et les différents modes de consentement ci-dessous."
 
@@ -1185,10 +1215,10 @@ msgstr "Polices Google auto-hébergées"
 #: integrations/plugins/beehive.php:41
 #: integrations/plugins/caos-host-analytics-local.php:88
 #: integrations/plugins/funnelkit.php:72
-#: integrations/plugins/google-analytics-dashboard-for-wp.php:71
-#: integrations/plugins/google-tagmanager-for-wordpress.php:38
-#: integrations/plugins/monsterinsights.php:61
-#: integrations/plugins/woocommerce-google-analytics-integration.php:78
+#: integrations/plugins/google-analytics-dashboard-for-wp.php:90
+#: integrations/plugins/google-tagmanager-for-wordpress.php:52
+#: integrations/plugins/monsterinsights.php:72
+#: integrations/plugins/woocommerce-google-analytics-integration.php:99
 #: integrations/plugins/woocommerce-google-analytics-pro.php:91
 msgid "Statistics plugin detected"
 msgstr "Extension de statistiques détecté"
@@ -1200,11 +1230,11 @@ msgstr "Extension de statistiques détecté"
 msgid "Advertising"
 msgstr "Publicité"
 
-#: functions.php:2837
+#: functions.php:2876
 msgid "In September 2023 the Quebec bill 64 will be enforced in Canada. In order to keep your site compliant, %sopt-in must be implemented for Canada%s. Please Navigate to the %sWizard%s and enable opt-in for Canada."
 msgstr "En septembre 2023, la loi 64 du Québec sera appliquée au Canada. Afin que votre site reste conforme, %sle recueil du consentement préalable doit être mis en œuvre pour le Canada%s. Veuillez aller dans l’%sAssistant%s et l’activer pour le Canada."
 
-#: documents/class-document.php:2116
+#: documents/class-document.php:2122
 msgid "No title"
 msgstr "Pas de titre"
 
@@ -1220,31 +1250,31 @@ msgstr "Droit à l’oubli"
 msgid "Request for access"
 msgstr "Demande d’accès"
 
-#: cookiebanner/settings.php:701
+#: cookiebanner/settings.php:780
 msgid "Custom CSS is not recommended for publishers that use TCF and additional frameworks due to strict guidelines."
 msgstr "Le CSS personnalisé n’est pas recommandés pour les éditeurs qui utilisent TCF et d’autres structures logicielles en raison de directives strictes."
 
-#: cookiebanner/settings.php:491
+#: cookiebanner/settings.php:478
 msgid "Border radius buttons"
 msgstr "Rayon de bordure de boutons"
 
-#: cookiebanner/settings.php:476
+#: cookiebanner/settings.php:463
 msgid "Border width banner"
 msgstr "Largeur de bordure de bannière"
 
-#: cookiebanner/settings.php:462
+#: cookiebanner/settings.php:449
 msgid "Border radius banner"
 msgstr "Rayon de bordure de bannière"
 
-#: cookiebanner/settings.php:439
+#: cookiebanner/settings.php:426
 msgid "Read more about our privacy-friendly cookie wall."
 msgstr "En savoir plus sur notre modale de cookies respectueuse de la vie privée."
 
-#: cookiebanner/settings.php:438
+#: cookiebanner/settings.php:425
 msgid "Soft cookie wall"
 msgstr "Modale de cookies allégée"
 
-#: cookiebanner/settings.php:376
+#: cookiebanner/settings.php:363
 msgid "You can upload your own logo, hide it, or use the site logo."
 msgstr "Vous pouvez téléverser votre propre logo, le masquer ou utiliser le logo du site."
 
@@ -1296,7 +1326,7 @@ msgstr "Bannière B"
 msgid "Banner A"
 msgstr "Bannière A"
 
-#: cookie/class-sync.php:683
+#: cookie/class-sync.php:851
 msgid "New cookie"
 msgstr "Nouveau cookie"
 
@@ -1324,15 +1354,15 @@ msgstr "Déclaration des enfants"
 msgid "On our website, we have included content from %s to promote web pages (e.g. “like”, “pin”) or share (e.g. “tweet”) on social networks like %s. This content is embedded with code derived from %s and places cookies. This content might store and process certain information for personalized advertising."
 msgstr "Sur notre site web, nous avons inclus du contenu provenant de %s pour promouvoir des pages web (par exemple, « like », « pin ») ou les partager (par exemple, « tweet ») sur des réseaux sociaux comme %s. Ce contenu est intégré grâce un code obtenu de %s et place des cookies. Ce contenu peut stocker et traiter certaines informations à des fins de publicité personnalisée."
 
-#: config/config-i18n.php:295
+#: config/config-i18n.php:301
 msgid "Brazil (LGPD)"
 msgstr "Brésil (LGPD)"
 
-#: config/config-i18n.php:294
+#: config/config-i18n.php:300
 msgid "South Africa (POPIA)"
 msgstr "Afrique du Sud POPIA"
 
-#: config/config-i18n.php:293
+#: config/config-i18n.php:299
 msgid "Australia (Privacy Act 1988)"
 msgstr "Australie (Privacy Act 1988)"
 
@@ -1360,11 +1390,11 @@ msgstr "Nécessaire afin de protéger la vie ou la sécurité physique d’une p
 msgid "California (CPRA)"
 msgstr "Californie (CPRA)"
 
-#: integrations/plugins/wp-google-map-plugin.php:65
+#: integrations/plugins/wp-google-map-plugin.php:66
 msgid "The WP Maps Pro integration has changed with the help of the authors of WP Maps, please check your implementation."
 msgstr "L’intégration de WP Maps Pro a été modifiée avec l’aide des auteurs de WP Maps, veuillez vérifier votre implémentation."
 
-#: functions.php:2838
+#: functions.php:2877
 msgid "Please be aware that this will activate opt-in for Canada, altering the banner and blocking non-functional scripts and cookies prior to consent. Please check the front-end of your site after activating opt-in."
 msgstr "Veuillez noter que cela activera l’accord pour le Canada, en modifiant la bannière et en bloquant les scripts et les cookies non fonctionnels avant l’obtention du consentement. Veuillez vérifier l’interface publique de votre site après l’activation de l’accord."
 
@@ -1518,13 +1548,13 @@ msgstr "Créez une déclaration de confidentialité et d’autres documents juri
 msgid "Your PHP version is lower than the recommended PHP version. Some features are not available. Support for this PHP version will be dropped soon."
 msgstr "Votre version de PHP est inférieure à la version de PHP recommandée. Certaines fonctionnalités ne sont pas disponibles. La prise en charge de cette version de PHP sera bientôt abandonnée."
 
-#: functions.php:1416 settings/build/11.773ce66896be1c8a4d07.js:1
+#: functions.php:1418 settings/build/11.773ce66896be1c8a4d07.js:1
 #: settings/build/4186.616704c21483c73a9fbe.js:1
 #: settings/build/4570.dedb4dde2dccc3188414.js:1
 #: settings/build/4644.ce465c5d9733b80acf30.js:1
 #: settings/build/8596.9b42544648802b678f6d.js:1
 #: settings/build/9487.e9838335195a59707dfe.js:1
-#: settings/build/index.8f676c1be76873344485.js:1
+#: settings/build/index.1606e098458857db3903.js:1
 #: settings/src/Dashboard/OtherPlugins/OtherPlugins.js:26
 #: settings/src/Settings/InstallPlugin/InstallPlugin.js:60
 #: settings/src/Settings/Premium.js:17
@@ -1552,11 +1582,11 @@ msgstr "Une politique de cookies est nécessaire pour informer vos visiteurs de 
 msgid "Do you specifically target visitors from these states?"
 msgstr "Ciblez-vous spécifiquement les visiteurs de ces états ?"
 
-#: config/config-i18n.php:332
+#: config/config-i18n.php:338
 msgid "Date of birth"
 msgstr "Date de naissance"
 
-#: config/config-i18n.php:321
+#: config/config-i18n.php:327
 msgid "To sell or share data with a third party"
 msgstr "Vendre ou partager les données avec une tierce partie"
 
@@ -1665,7 +1695,7 @@ msgstr "Vous avez des demandes de données en cours."
 msgid "Data Requests"
 msgstr "Demandes de données"
 
-#: DNSMPD/class-admin-DNSMPD.php:374
+#: DNSMPD/class-admin-DNSMPD.php:377
 #: settings/build/1624.01b1c5264a5e8bef49f1.js:1
 #: settings/build/3068.896ccf52a406c91528e3.js:1
 #: settings/build/3078.d832b7256202088ed93e.js:1
@@ -1675,7 +1705,7 @@ msgstr "Demandes de données"
 #: settings/src/Settings/DataRequests/DatarequestsControl.js:203
 #: settings/src/Settings/ProcessingAgreements/ProcessingAgreementsControl.js:199
 #: settings/src/Settings/ProofOfConsent/ProofOfConsentControl.js:184
-#: settings/src/Settings/RecordsOfConsent/RecordsOfConsentControl.js:249
+#: settings/src/Settings/RecordsOfConsent/RecordsOfConsentControl.js:243
 msgid "Date"
 msgstr "Date"
 
@@ -1764,19 +1794,19 @@ msgstr "Oui, et le gestionnaire de balises Matomo déclenche ce script"
 msgid "Manage services"
 msgstr "Gérer les services"
 
-#: cookiebanner/settings.php:368
+#: cookiebanner/settings.php:355
 msgid "Legal document links on banner"
 msgstr "Liens vers les documents juridiques sur la bannière"
 
-#: cookiebanner/settings.php:500
+#: cookiebanner/settings.php:487
 msgid "Font size"
 msgstr "Taille de police"
 
-#: cookiebanner/settings.php:691
+#: cookiebanner/settings.php:770
 msgid "This will disable a back-end javascript to keep the banner width aligned with other elements."
 msgstr "Ceci désactivera un javascript d’interface d’administration pour maintenir la largeur de la bannière alignée avec les autres éléments."
 
-#: cookiebanner/settings.php:683
+#: cookiebanner/settings.php:762
 msgid "Disable width auto correction"
 msgstr "Désactiver la correction automatique de la largeur"
 
@@ -1816,7 +1846,7 @@ msgstr "Sélectionnez le ratio optimal de l’espace réservé pour votre site."
 msgid "With Matomo cookieless tracking, configuration by Complianz is required."
 msgstr "Avec Matomo sans cookies de traçage, la configuration par Complianz est nécessaire."
 
-#: class-document.php:1176 documents/class-document.php:1179
+#: class-document.php:1176 documents/class-document.php:1185
 msgid "Click to accept marketing cookies"
 msgstr "Cliquez pour accepter les cookies de marketing"
 
@@ -1869,8 +1899,8 @@ msgstr "Déclaration de confidentialité (US)"
 msgid "Privacy Statement (EU)"
 msgstr "Déclaration de confidentialité (UE)"
 
-#: cookiebanner/settings.php:866 cookiebanner/settings.php:867
-#: cookiebanner/settings.php:868
+#: cookiebanner/settings.php:945 cookiebanner/settings.php:946
+#: cookiebanner/settings.php:947
 msgid "View preferences"
 msgstr "Voir les préférences"
 
@@ -1935,8 +1965,8 @@ msgstr "Installer %sManuellement%s."
 #: settings/src/Settings/AreYouSureModal.js:15
 #: settings/src/Settings/DataBreachReports/CreateDataBreachReport.js:148
 #: settings/src/Settings/DataBreachReports/CreateDataBreachReport.js:175
-#: settings/src/Settings/ProcessingAgreements/CreateProcessingAgreements.js:162
-#: settings/src/Settings/ProcessingAgreements/CreateProcessingAgreements.js:196
+#: settings/src/Settings/ProcessingAgreements/CreateProcessingAgreements.js:169
+#: settings/src/Settings/ProcessingAgreements/CreateProcessingAgreements.js:208
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -2054,15 +2084,15 @@ msgstr "Gérer les options"
 msgid "Always active"
 msgstr "Toujours activé"
 
-#: cookiebanner/settings.php:1087
+#: cookiebanner/settings.php:1166
 msgid "Marketing description"
 msgstr "Description du marketing"
 
-#: cookiebanner/settings.php:1041
+#: cookiebanner/settings.php:1120
 msgid "Anonymous statistics description"
 msgstr "Description des statistiques anonymes"
 
-#: cookiebanner/settings.php:1035
+#: cookiebanner/settings.php:1114
 msgid "The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you."
 msgstr "Le stockage ou l’accès technique qui est utilisé exclusivement dans des finalités statistiques anonymes. En l’absence d’une assignation à comparaître, d’une conformité volontaire de la part de votre fournisseur d’accès à internet ou d’enregistrements supplémentaires provenant d’une tierce partie, les informations stockées ou extraites à cette seule fin ne peuvent généralement pas être utilisées pour vous identifier."
 
@@ -2070,31 +2100,31 @@ msgstr "Le stockage ou l’accès technique qui est utilisé exclusivement dans 
 msgid "Manage %s vendors"
 msgstr "Gérer %s fournisseurs"
 
-#: cookiebanner/settings.php:1081
+#: cookiebanner/settings.php:1160
 msgid "The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes."
 msgstr "L’accès ou le stockage technique est nécessaire pour créer des profils d’internautes afin d’envoyer des publicités, ou pour suivre l’utilisateur sur un site web ou sur plusieurs sites web ayant des finalités marketing similaires."
 
-#: cookiebanner/settings.php:1013
+#: cookiebanner/settings.php:1092
 msgid "Statistics description"
 msgstr "Description de statistiques"
 
-#: cookiebanner/settings.php:1010
+#: cookiebanner/settings.php:1089
 msgid "The technical storage or access that is used exclusively for statistical purposes."
 msgstr "Le stockage ou l’accès technique qui est utilisé exclusivement à des fins statistiques."
 
-#: cookiebanner/settings.php:982
+#: cookiebanner/settings.php:1061
 msgid "Preferences description"
 msgstr "Description des préférences"
 
-#: cookiebanner/settings.php:976
+#: cookiebanner/settings.php:1055
 msgid "The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user."
 msgstr "L’accès ou le stockage technique est nécessaire dans la finalité d’intérêt légitime de stocker des préférences qui ne sont pas demandées par l’abonné ou l’internaute."
 
-#: cookiebanner/settings.php:948
+#: cookiebanner/settings.php:1027
 msgid "Functional description"
 msgstr "Description fonctionnelle"
 
-#: cookiebanner/settings.php:942
+#: cookiebanner/settings.php:1021
 msgid "The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network."
 msgstr "L’accès ou le stockage technique est strictement nécessaire dans la finalité d’intérêt légitime de permettre l’utilisation d’un service spécifique explicitement demandé par l’abonné ou l’utilisateur, ou dans le seul but d’effectuer la transmission d’une communication sur un réseau de communications électroniques."
 
@@ -2102,47 +2132,47 @@ msgstr "L’accès ou le stockage technique est strictement nécessaire dans la 
 msgid "To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions."
 msgstr "Pour offrir les meilleures expériences, nous utilisons des technologies telles que les cookies pour stocker et/ou accéder aux informations des appareils. Le fait de consentir à ces technologies nous permettra de traiter des données telles que le comportement de navigation ou les ID uniques sur ce site. Le fait de ne pas consentir ou de retirer son consentement peut avoir un effet négatif sur certaines caractéristiques et fonctions."
 
-#: cookiebanner/settings.php:369
+#: cookiebanner/settings.php:356
 msgid "On the consent banner the generated documents are shown. The title is based on the actual post title."
 msgstr "Les documents générés sont affichés sur la bannière de consentement. Le titre est basé sur le titre actuel de l’article."
 
-#: cookiebanner/settings.php:846 cookiebanner/settings.php:850
+#: cookiebanner/settings.php:925 cookiebanner/settings.php:929
 msgid "Deny button"
 msgstr "Bouton de refus"
 
-#: cookiebanner/settings.php:806 cookiebanner/settings.php:825
+#: cookiebanner/settings.php:885 cookiebanner/settings.php:904
 msgid "Accept button"
 msgstr "Bouton d’accord"
 
-#: cookiebanner/settings.php:792
+#: cookiebanner/settings.php:871
 msgid "Header"
 msgstr "En-tête"
 
-#: cookiebanner/settings.php:421
+#: cookiebanner/settings.php:408
 msgid "Box shadow on header and footer"
 msgstr "Ombre de boîte sur l’en-tête et le pied de page"
 
-#: cookiebanner/settings.php:401
+#: cookiebanner/settings.php:388
 msgid "Close button"
 msgstr "Bouton de fermeture"
 
-#: cookiebanner/settings.php:377
+#: cookiebanner/settings.php:364
 msgid "The site logo is the default logo set in your theme's site identity."
 msgstr "Le logo du site est le logo par défaut défini dans l’identité du site de votre thème."
 
-#: cookiebanner/settings.php:384
+#: cookiebanner/settings.php:371
 msgid "Upload Custom Logo"
 msgstr "Téléverser un logo personnalisé"
 
-#: cookiebanner/settings.php:383
+#: cookiebanner/settings.php:370
 msgid "Use \"Powered by Complianz\""
 msgstr "Utilisez « Powered by Complianz »"
 
-#: cookiebanner/settings.php:382
+#: cookiebanner/settings.php:369
 msgid "Use Site Logo"
 msgstr "Utiliser le logo du site"
 
-#: cookiebanner/settings.php:379
+#: cookiebanner/settings.php:366
 msgid "Logo"
 msgstr "Logo"
 
@@ -2158,15 +2188,15 @@ msgstr "Accord - Refus - Enregistrer les préférences"
 msgid "Accept - Deny - View Preferences"
 msgstr "Accord - Refus - Voir les préférences"
 
-#: cookiebanner/settings.php:332
+#: cookiebanner/settings.php:319
 msgid "Width of the banner in pixels"
 msgstr "Largeur de la bannière en pixels"
 
-#: cookiebanner/settings.php:305
+#: cookiebanner/settings.php:292
 msgid "Bottom right"
 msgstr "En bas à droite"
 
-#: cookiebanner/settings.php:304
+#: cookiebanner/settings.php:291
 msgid "Bottom left"
 msgstr "En bas à gauche"
 
@@ -2186,11 +2216,11 @@ msgstr "Réinitialisation des valeurs par défaut"
 msgid "To change these settings, please visit the script center."
 msgstr "Pour modifier ces réglages, veuillez visiter le centre de script."
 
-#: cookiebanner/settings.php:381
+#: cookiebanner/settings.php:368
 msgid "Hide"
 msgstr "Masquer"
 
-#: cookiebanner/settings.php:402
+#: cookiebanner/settings.php:389
 msgid "If enabled, a close icon will be shown on your consent banner."
 msgstr "Si activé, une icône de fermeture sera affichée sur votre bannière de consentement."
 
@@ -2306,7 +2336,7 @@ msgid "Example"
 msgstr "Exemple"
 
 #: class-document.php:2356 class-document.php:2400
-#: documents/class-document.php:1455 documents/class-document.php:1499
+#: documents/class-document.php:1461 documents/class-document.php:1505
 msgid "Click to accept the cookies for this service"
 msgstr "Cliquez pour accepter les cookies pour ce service"
 
@@ -2503,11 +2533,11 @@ msgctxt "Legal document cookie policy"
 msgid "This Cookie Policy was last updated on %s and applies to citizens and legal permanent residents of Brazil."
 msgstr "La présente politique de cookies a été mise à jour le %s et s’applique aux citoyens et aux résidents permanents légaux du Brésil."
 
-#: config/config-i18n.php:312
+#: config/config-i18n.php:318
 msgid "LGPD"
 msgstr "LGPD"
 
-#: config/config-i18n.php:310
+#: config/config-i18n.php:316
 msgid "BR"
 msgstr "BR"
 
@@ -2555,7 +2585,7 @@ msgstr "Ce site web utilise la Privacy Suite for WordPress de Complianz pour col
 msgid "Imprint"
 msgstr "Imprint"
 
-#: config/config-i18n.php:301
+#: config/config-i18n.php:307
 msgid "European Union"
 msgstr "Union européenne"
 
@@ -2581,11 +2611,11 @@ msgctxt "Legal document cookie policy"
 msgid "This Cookie Policy was last updated on %s and applies to citizens and legal permanent residents of South Africa."
 msgstr "Cette politique de cookies a été mise à jour le %s et s’applique aux citoyens et aux résidents permanents légaux d’Afrique du Sud."
 
-#: config/config-i18n.php:309
+#: config/config-i18n.php:315
 msgid "POPIA"
 msgstr "POPIA"
 
-#: config/config-i18n.php:307
+#: config/config-i18n.php:313
 msgid "ZA"
 msgstr "ZA"
 
@@ -2598,7 +2628,7 @@ msgctxt "Legal document cookie policy"
 msgid "This page was last changed on %s, last checked on %s and applies to citizens and legal permanent residents of Canada."
 msgstr "Cette page a été modifiée pour la dernière fois le %s, a été vérifiée pour la dernière fois le %s, et s’applique aux citoyens et aux résidents permanents légaux du Canada."
 
-#: config/config-i18n.php:305
+#: config/config-i18n.php:311
 msgid "AU"
 msgstr "AU"
 
@@ -2619,11 +2649,11 @@ msgstr "Ciblez-vous les visiteurs d’Allemagne, d’Autriche, de Belgique et/ou
 msgid "Below you can choose to implement your statistics tooling with Complianz. We will add the needed snippets and control consent at the same time"
 msgstr "Ci-dessous vous pouvez choisir d’implémenter votre outil de statistiques avec Complianz. Nous ajouterons les extraits nécessaires et contrôlerons le consentement en même temps."
 
-#: config/config-i18n.php:322
+#: config/config-i18n.php:328
 msgid "Deliveries"
 msgstr "Livraisons"
 
-#: cookiebanner/settings.php:851
+#: cookiebanner/settings.php:930
 msgid "This button will reject all cookies except necessary cookies, and dismisses the consent banner."
 msgstr "Ce bouton rejettera tous les cookies, sauf ceux qui sont nécessaires, et fermera la bannière de consentement."
 
@@ -2631,7 +2661,7 @@ msgstr "Ce bouton rejettera tous les cookies, sauf ceux qui sont nécessaires, e
 msgid "Which banner do you want to display in other regions?"
 msgstr "Quelle bannière voulez-vous afficher dans les autres régions ?"
 
-#: cookie/class-sync.php:106 cookie/class-sync.php:404
+#: cookie/class-sync.php:253 cookie/class-sync.php:565
 msgid "You haven't accepted the usage of the cookiedatabase.org API. To automatically complete your cookie descriptions, please choose yes."
 msgstr "Vous n’avez pas accepté l’utilisation de l’API de cookiedatabase.org. Afin de renseigner automatiquement vos descriptions de cookies, veuillez choisir Oui."
 
@@ -2747,59 +2777,63 @@ msgstr "Ignorer"
 msgid "Buttons"
 msgstr "Boutons"
 
-#: cookiebanner/settings.php:573
+#: cookiebanner/settings.php:588 cookiebanner/settings.php:618
 msgid "Inactive"
 msgstr "Inactive"
 
-#: cookiebanner/settings.php:569
+#: cookiebanner/settings.php:584 cookiebanner/settings.php:613
+#: cookiebanner/settings.php:621
 msgid "Bullet"
 msgstr "Puce"
 
-#: cookiebanner/settings.php:556 settings/config/menu.php:208
+#: cookiebanner/settings.php:571 settings/config/menu.php:208
 msgid "Toggles"
 msgstr "Bascules"
 
-#: cookiebanner/settings.php:546
+#: cookiebanner/settings.php:533 cookiebanner/settings.php:560
 msgid "Hyperlink"
 msgstr "Hyperlien"
 
-#: cookiebanner/settings.php:542
+#: cookiebanner/settings.php:529
 msgid "Color"
 msgstr "Couleur"
 
-#: cookiebanner/settings.php:534 cookiebanner/settings.php:606
-#: cookiebanner/settings.php:633 cookiebanner/settings.php:666
+#: cookiebanner/settings.php:521 cookiebanner/settings.php:552
+#: cookiebanner/settings.php:649 cookiebanner/settings.php:676
+#: cookiebanner/settings.php:709
 msgid "Text"
 msgstr "Texte"
 
-#: cookiebanner/settings.php:524 cookiebanner/settings.php:602
-#: cookiebanner/settings.php:629 cookiebanner/settings.php:662
+#: cookiebanner/settings.php:511 cookiebanner/settings.php:645
+#: cookiebanner/settings.php:672 cookiebanner/settings.php:705
 msgid "Border"
 msgstr "Bordure"
 
-#: cookiebanner/settings.php:512 cookiebanner/settings.php:520
-#: cookiebanner/settings.php:565 cookiebanner/settings.php:598
-#: cookiebanner/settings.php:625 cookiebanner/settings.php:658
+#: cookiebanner/settings.php:499 cookiebanner/settings.php:507
+#: cookiebanner/settings.php:549 cookiebanner/settings.php:557
+#: cookiebanner/settings.php:580 cookiebanner/settings.php:610
+#: cookiebanner/settings.php:641 cookiebanner/settings.php:668
+#: cookiebanner/settings.php:701
 msgid "Background"
 msgstr "Arrière-plan"
 
-#: cookiebanner/settings.php:412
+#: cookiebanner/settings.php:399
 msgid "Box shadow"
 msgstr "Ombre de boîte"
 
-#: cookiebanner/settings.php:319
+#: cookiebanner/settings.php:306
 msgid "Slide"
 msgstr "Glissement"
 
-#: cookiebanner/settings.php:318
+#: cookiebanner/settings.php:305
 msgid "Fade"
 msgstr "Fondu"
 
-#: cookiebanner/settings.php:315
+#: cookiebanner/settings.php:302
 msgid "Animation"
 msgstr "Animation"
 
-#: cookiebanner/settings.php:300
+#: cookiebanner/settings.php:287
 msgid "Position"
 msgstr "Position"
 
@@ -2807,7 +2841,7 @@ msgstr "Position"
 msgid "Hide preview"
 msgstr "Masquer l’aperçu"
 
-#: cookiebanner/settings.php:783
+#: cookiebanner/settings.php:862
 msgid "Text on the manage consent tab"
 msgstr "Texte sur l’onglet de gestion du consentement"
 
@@ -2847,7 +2881,7 @@ msgstr "Choisir un fichier"
 msgid "Left"
 msgstr "Gauche"
 
-#: class-field.php:1519 class-field.php:1599 cookiebanner/settings.php:303
+#: class-field.php:1519 class-field.php:1599 cookiebanner/settings.php:290
 #: settings/build/1370.9dc9c94c443870d44ab9.js:1
 #: settings/build/3549.e5ba19d1953def146594.js:1
 #: settings/build/6009.498d0da1c09d09915322.js:1
@@ -2881,15 +2915,15 @@ msgstr "Haut"
 msgid "the page source"
 msgstr "la source de page"
 
-#: cookiebanner/settings.php:784
+#: cookiebanner/settings.php:863
 msgid "The tab will show after the visitor interacted with the banner, and can be used to make the consent banner reappear."
 msgstr "L’onglet s’affichera après que le visiteur ait interagi avec la bannière, et peut être utilisé pour faire réapparaître la bannière de consentement."
 
-#: cookiebanner/settings.php:712 settings/config/fields/tools/documents.php:42
+#: cookiebanner/settings.php:791 settings/config/fields/tools/documents.php:42
 msgid "You can add additional custom CSS here. For tips and CSS lessons, check out our documentation."
 msgstr "Vous pouvez ajouter du CSS personnalisé ici. Pour des conseils et des leçons de CSS, consultez notre documentation."
 
-#: cookiebanner/settings.php:317 settings/config/fields/wizard/general.php:37
+#: cookiebanner/settings.php:304 settings/config/fields/wizard/general.php:37
 #: settings/config/fields/wizard/general.php:156
 #: settings/config/fields/wizard/general.php:176
 #: settings/config/fields/wizard/general.php:194
@@ -2928,7 +2962,7 @@ msgstr "Installé"
 msgid "Export"
 msgstr "Exporter"
 
-#: documents/admin-class-documents.php:309 settings/settings.php:641
+#: documents/admin-class-documents.php:309 settings/settings.php:646
 msgid "Terms & Conditions"
 msgstr "Conditions générales."
 
@@ -2951,12 +2985,12 @@ msgstr "Saisissez votre ID de site Clicky"
 msgid "Yes, with Clicky"
 msgstr "Oui, avec Clicky"
 
-#: class-document.php:1134 documents/class-document.php:1149
+#: class-document.php:1134 documents/class-document.php:1155
 msgctxt "cookie policy"
 msgid "On AMP, you can use the manage consent button on the bottom of the page."
 msgstr "Sur AMP, vous pouvez utiliser l’onglet de gestion du consentement en bas de la page."
 
-#: class-document.php:1133 documents/class-document.php:1148
+#: class-document.php:1133 documents/class-document.php:1154
 msgctxt "cookie policy"
 msgid "You have loaded the Cookie Policy without javascript support."
 msgstr "Vous avez chargé la politique de cookies sans le support de javascript."
@@ -3001,11 +3035,11 @@ msgstr "Étendez la preuve de consentement avec les recueils de consentement"
 msgid "Click to accept reCaptcha validation."
 msgstr "Cliquez pour accepter la validation reCaptcha."
 
-#: class-document.php:1106 documents/class-document.php:1121
+#: class-document.php:1106 documents/class-document.php:1127
 msgid "This message was generated by Complianz GDPR/CCPA."
 msgstr "Ce message a été généré par Complianz GDPR/CCPA."
 
-#: class-document.php:1102 documents/class-document.php:1117
+#: class-document.php:1102 documents/class-document.php:1123
 msgctxt "notification email"
 msgid "Your legal documents on %s have not been updated in 12 months. Please log in and run the %swizard%s in the Complianz plugin to check if everything is up to date."
 msgstr "Vos documents juridiques sur %s n’ont pas été mis à jour depuis 12 mois. Veuillez vous connecter et lancer l’%sassistant%s dans l’extension Complianz pour vérifier si tout est à jour."
@@ -3035,7 +3069,7 @@ msgctxt "cookie policy"
 msgid "We have received a privacy signal from your browser. For this reason we have set your privacy settings on this website to strictly necessary. If you want to have full functionality, please consider excluding %s from your privacy settings."
 msgstr "Nous avons reçu une demande de confidentialité de votre navigateur. C’est pourquoi nous avons configuré vos réglages de confidentialité sur ce site web au niveau strictement nécessaire. Si vous souhaitez bénéficier de toutes les fonctionnalités, veuillez envisager d’exclure %s de vos réglages de confidentialité."
 
-#: cookiebanner/settings.php:793 cookiebanner/settings.php:795
+#: cookiebanner/settings.php:872 cookiebanner/settings.php:874
 msgid "Manage Consent"
 msgstr "Gérer le consentement"
 
@@ -3048,7 +3082,7 @@ msgstr "Utilisation"
 msgid "For the Google Analytics tracking ID, log in and click Admin and copy the tracking ID."
 msgstr "Pour l’ID de traçage de Google Analytics, connectez-vous, cliquez sur Administration et copiez l’ID de traçage."
 
-#: functions.php:1984
+#: functions.php:1986
 msgid "Sharing of data is pending investigation"
 msgstr "Le partage des données est en cours d’enquête"
 
@@ -3161,32 +3195,32 @@ msgstr "Cliquez pour accepter les cookies %s et activer ce contenu"
 msgid "It is recommended to select a Privacy Statement."
 msgstr "Il est recommandé de sélectionner une déclaration de confidentialité."
 
-#: cookiebanner/class-cookiebanner.php:833 cookiebanner/settings.php:930
-#: cookiebanner/settings.php:931 cookiebanner/settings.php:932
+#: cookiebanner/class-cookiebanner.php:833 cookiebanner/settings.php:1009
+#: cookiebanner/settings.php:1010 cookiebanner/settings.php:1011
 #: settings/build/3078.d832b7256202088ed93e.js:1
 #: settings/src/Settings/RecordsOfConsent/RecordsOfConsentControl.js:196
 msgid "Functional"
 msgstr "Fonctionnel"
 
 #: cookiebanner/settings.php:144 settings/build/3078.d832b7256202088ed93e.js:1
-#: settings/src/Settings/RecordsOfConsent/RecordsOfConsentControl.js:243
+#: settings/src/Settings/RecordsOfConsent/RecordsOfConsentControl.js:237
 msgid "Categories"
 msgstr "Catégories"
 
 #: cookiebanner/class-cookiebanner.php:338 cookiebanner/settings.php:165
-#: cookiebanner/settings.php:781 cookiebanner/settings.php:782
+#: cookiebanner/settings.php:860 cookiebanner/settings.php:861
 msgid "Manage consent"
 msgstr "Gérer le consentement"
 
-#: cookiebanner/settings.php:351
+#: cookiebanner/settings.php:338
 msgid "Slider"
 msgstr "Bascule"
 
-#: cookiebanner/settings.php:347
+#: cookiebanner/settings.php:334
 msgid "Checkbox style"
 msgstr "Style de case à cocher"
 
-#: cookiebanner/settings.php:348
+#: cookiebanner/settings.php:335
 msgid "This style is for the checkboxes on the consent banner, as well as on your policy for managing consent."
 msgstr "Ce style s’applique aux cases à cocher de la bannière de consentement, ainsi qu’à votre politique de gestion du consentement."
 
@@ -3282,7 +3316,7 @@ msgstr "Toutes les pages nécessaires ont déjà été créées. Vous pouvez met
 msgid "The pages marked with X should be added to your website. You can create these pages with a shortcode, a Gutenberg block or use the below \"Create missing pages\" button."
 msgstr "Les pages marquées d’un X devraient être ajoutées à votre site web. Vous pouvez créer ces pages avec un code court, un bloc Gutenberg ou utiliser le bouton ci-dessous « Créer les pages manquantes »."
 
-#: class-document.php:481 documents/class-document.php:542
+#: class-document.php:481 documents/class-document.php:548
 msgid "Region %s not activated for %s."
 msgstr "Région %s non activée pour %s."
 
@@ -3367,15 +3401,15 @@ msgstr "Détails de la vidéo"
 msgid "Install"
 msgstr "Installer"
 
-#: cookiebanner/class-cookiebanner.php:836 cookiebanner/settings.php:957
-#: cookiebanner/settings.php:960 cookiebanner/settings.php:961
+#: cookiebanner/class-cookiebanner.php:836 cookiebanner/settings.php:1036
+#: cookiebanner/settings.php:1039 cookiebanner/settings.php:1040
 #: gutenberg/build/index.js:1 gutenberg/src/index.js:356
 #: settings/build/3078.d832b7256202088ed93e.js:1
 #: settings/src/Settings/RecordsOfConsent/RecordsOfConsentControl.js:197
 msgid "Preferences"
 msgstr "Préférences"
 
-#: config/config-i18n.php:351
+#: config/config-i18n.php:357
 msgid "Audio, electronic, visual, thermal, olfactory, or similar information"
 msgstr "Information audio, électronique, visuelle, thermique, olfactive ou similaire"
 
@@ -3394,7 +3428,7 @@ msgstr "L’assistant"
 msgid "Disable notifications"
 msgstr "Désactiver les notifications"
 
-#: config/config-i18n.php:298
+#: config/config-i18n.php:304
 msgid "CA"
 msgstr "CA"
 
@@ -3457,7 +3491,7 @@ msgctxt "Legal document cookie policy"
 msgid "When you visit our website for the first time, we will show you a pop-up with an explanation about cookies. You do have the right to opt-out and to object against the further use of non-functional cookies."
 msgstr "Lorsque vous visitez notre site web pour la première fois, nous vous afficherons une fenêtre contextuelle avec une explication sur les cookies. Vous avez le droit de les refuser et de vous opposer à toute autre utilisation de cookies non fonctionnels."
 
-#: config/config-i18n.php:292
+#: config/config-i18n.php:298
 msgid "Canada (PIPEDA)"
 msgstr "Canada (LPRDE)"
 
@@ -3469,7 +3503,8 @@ msgstr "Politique de cookies (CA)"
 msgid "You have selected options that indicate your site processes sensitive, personal data. You should select 'Yes'"
 msgstr "Vous avez sélectionné des options indiquant que votre site traite des données personnelles sensibles. Vous devriez sélectionner « Oui »."
 
-#: integrations/plugins/google-tagmanager-for-wordpress.php:25
+#. translators: %s is the plugin name.
+#: integrations/plugins/google-tagmanager-for-wordpress.php:39
 msgid "You have selected you do not share data with third-party networks. Remarketing is now disabled in %s."
 msgstr "Vous avez choisi de ne pas partager de données avec des réseaux de tierces parties. Le remarketing est désormais désactivé dans %s."
 
@@ -3477,7 +3512,8 @@ msgstr "Vous avez choisi de ne pas partager de données avec des réseaux de tie
 msgid "Click to accept marketing cookies and enable this form"
 msgstr "Cliquez pour accepter les cookies de marketing et activer ce formulaire"
 
-#: integrations/plugins/google-tagmanager-for-wordpress.php:39
+#. translators: %s is the plugin name.
+#: integrations/plugins/google-tagmanager-for-wordpress.php:54
 msgid "You use %s, which means the answer to this question should be Google Tag Manager."
 msgstr "Vous utilisez %s, ce qui signifie que la réponse à cette question devrait être le gestionnaire de balises Google."
 
@@ -3501,12 +3537,13 @@ msgstr "Voulez-vous demander le consentement pour les statistiques ?"
 msgid "Details per Purpose"
 msgstr "Détails par finalité"
 
-#: integrations/plugins/google-analytics-dashboard-for-wp.php:57
+#: integrations/plugins/google-analytics-dashboard-for-wp.php:72
 msgid "You have selected you do not share data with third-party networks. Display advertising is now disabled in %s."
 msgstr "Vous avez choisi de ne pas partager de données avec des réseaux de tierces parties. L’affichage de la publicité est désormais désactivée dans %s."
 
-#: integrations/plugins/google-analytics-dashboard-for-wp.php:53
-#: integrations/plugins/google-tagmanager-for-wordpress.php:22
+#. translators: %s is the plugin name.
+#: integrations/plugins/google-analytics-dashboard-for-wp.php:62
+#: integrations/plugins/google-tagmanager-for-wordpress.php:35
 msgid "You have selected you anonymize IP addresses. This setting is now enabled in %s."
 msgstr "Vous avez sélectionné que vous anonymisez les adresses IP. Ce réglage est maintenant activé dans %s."
 
@@ -3554,19 +3591,19 @@ msgstr "Si vous souhaitez supprimer tous les cookies de l’extension, vous pouv
 msgid "(not synced yet)"
 msgstr "(pas encore synchronisés)"
 
-#: cookiebanner/class-banner-loader.php:852 functions.php:2001
+#: cookiebanner/class-banner-loader.php:852 functions.php:2003
 msgid "Purpose pending investigation"
 msgstr "Finalité en attente d’enquête"
 
-#: cookie/class-sync.php:166 cookie/class-sync.php:462
+#: cookie/class-sync.php:316 cookie/class-sync.php:631
 msgid "Could not connect to cookiedatabase.org"
 msgstr "Impossible de se connecter à cookiedatabase.org"
 
-#: cookie/class-sync.php:120 cookie/class-sync.php:419
+#: cookie/class-sync.php:267 cookie/class-sync.php:580
 msgid "A request is already running. Please be patient until the current request finishes"
 msgstr "Une demande est déjà en cours. Veuillez patientez jusqu’à la fin de la demande actuelle"
 
-#: cookie/class-cookie.php:364 cookie/class-cookie.php:425
+#: cookie/class-cookie.php:410 cookie/class-cookie.php:469
 msgid "%s days"
 msgstr "%s jours"
 
@@ -3581,20 +3618,20 @@ msgstr "Fonction"
 msgid "Click to copy the document shortcode"
 msgstr "Cliquez pour copier le code court du document"
 
-#: functions.php:1987
+#: functions.php:1989
 msgctxt "Legal document cookie policy"
 msgid "We use %s for %s."
 msgstr "Nous utilisons %s pour %s."
 
-#: functions.php:1972 functions.php:1982
+#: functions.php:1974 functions.php:1984
 msgid "This data is not shared with third parties."
 msgstr "Ces données ne sont pas partagées avec des tierces parties."
 
-#: functions.php:1974 functions.php:1979
+#: functions.php:1976 functions.php:1981
 msgid "For more information, please read the %s%s Privacy Statement%s."
 msgstr "Pour plus d’informations, veuillez lire la %sdéclaration de confidentialité %s%s."
 
-#: functions.php:1965
+#: functions.php:1967
 msgid "Miscellaneous"
 msgstr "Divers"
 
@@ -3642,7 +3679,7 @@ msgstr "Oui, j’accepte la %sdéclaration de confidentialité%s"
 msgid "Please accept cookies so we can validate your request with reCaptcha, and submit this form"
 msgstr "Veuillez accepter les cookies afin que nous puissions valider votre demande avec reCAPTCHA, et envoyer ce formulaire"
 
-#: integrations/plugins/monsterinsights.php:49
+#: integrations/plugins/monsterinsights.php:60
 msgid "You have selected you do not share data with third-party networks. Demographics is now disabled in MonsterInsights."
 msgstr "Vous avez choisi de ne pas partager de données avec des réseaux de tierces parties. Les données démographiques sont désormais désactivées dans MonsterInsights."
 
@@ -3666,7 +3703,7 @@ msgstr "Désolé, nous avons échoué dans l’activation de l’intégration à
 msgid "Integrate Forminator with Complianz Privacy Suite"
 msgstr "Intégrer Forminator avec Complianz Privacy Suite"
 
-#: integrations/plugins/monsterinsights.php:45
+#: integrations/plugins/monsterinsights.php:56
 msgid "You have selected you anonymize IP addresses. This setting is now enabled in MonsterInsights."
 msgstr "Vous avez sélectionné que vous anonymisez les adresses IP. Ce réglage est maintenant activé dans MonsterInsights."
 
@@ -3678,7 +3715,7 @@ msgstr "Politique de cookies (UE)"
 msgid "Cookie Policy (UK)"
 msgstr "Politique de cookies (UK)"
 
-#: config/config-i18n.php:290
+#: config/config-i18n.php:296
 msgid "United Kingdom (UK-GDPR, PECR, Data Protection Act)"
 msgstr "Royaume-Uni (UK-GDPR, PECR, Data Protection Act)"
 
@@ -3694,17 +3731,17 @@ msgstr "Est-ce que Hotjar est configuré de façon à respecter la confidentiali
 msgid "Checking services here will add the associated cookies to your Cookie Policy, and block the service until consent is given (opt-in), or after consent is revoked (opt-out)."
 msgstr "La vérification des services ici ajoutera les cookies associés à votre politique de cookies, et bloquera le service jusqu’à ce que le consentement soit donné (accord/opt-in), ou après que le consentement soit révoqué (refus/opt-out)."
 
-#: config/config-i18n.php:304
+#: config/config-i18n.php:310
 msgid "UK-GDPR"
 msgstr "UK-GDPR"
 
 #: class-document.php:768 class-document.php:776
-#: documents/class-document.php:821 documents/class-document.php:828
+#: documents/class-document.php:827 documents/class-document.php:834
 msgctxt "if phonenumber is entered, this string is part of the sentence \"you may contact %s, via %s or by telephone via %s\""
 msgid "or by telephone on %s"
 msgstr "ou par téléphone au %s"
 
-#: config/config-i18n.php:302
+#: config/config-i18n.php:308
 msgid "UK"
 msgstr "Royaume-Uni"
 
@@ -3717,12 +3754,11 @@ msgid "Checking services here will add the associated cookies to your Cookie Pol
 msgstr "La vérification des services ici ajoutera les cookies associés à votre politique de cookies, et bloquera le service jusqu’à ce que le consentement soit donné (accord/opt-in), ou après que le consentement ait été révoqué (refus/opt-out)."
 
 #: settings/config/menu.php:130 settings/config/menu.php:235
-#: settings/src/Settings/RecordsOfConsent/RecordsOfConsentControl.js:237
 msgid "Services"
 msgstr "Services"
 
-#: settings/config/menu.php:231 settings/settings.php:338
-#: settings/settings.php:339 settings/build/8525.433647e550a4b16270cb.js:1
+#: settings/config/menu.php:231 settings/settings.php:343
+#: settings/settings.php:344 settings/build/8525.433647e550a4b16270cb.js:1
 #: settings/src/Tour/Tour.js:131
 msgid "Integrations"
 msgstr "Intégrations"
@@ -3770,11 +3806,11 @@ msgstr "Réglages du consentement aux cookies"
 #: settings/src/Settings/Integrations/PluginsControl.js:162
 #: settings/src/Settings/Integrations/ServicesControl.js:245
 #: settings/src/Settings/ProcessingAgreements/ProcessingAgreementsControl.js:221
-#: settings/src/Settings/RecordsOfConsent/RecordsOfConsentControl.js:276
+#: settings/src/Settings/RecordsOfConsent/RecordsOfConsentControl.js:270
 msgid "Search"
 msgstr "Rechercher"
 
-#: cookiebanner/settings.php:430
+#: cookiebanner/settings.php:417
 msgid "Show as soft cookie wall"
 msgstr "Afficher en tant que modale de cookies allégée"
 
@@ -3872,16 +3908,16 @@ msgstr "Titre descriptif de la bannière de cookie"
 msgid "For internal use only"
 msgstr "Pour usage interne uniquement."
 
-#: functions.php:2477
+#: functions.php:2497
 msgid "All consent types"
 msgstr "Tous types de consentement"
 
-#: functions.php:2475 settings/build/3078.d832b7256202088ed93e.js:1
+#: functions.php:2495 settings/build/3078.d832b7256202088ed93e.js:1
 #: settings/src/Settings/RecordsOfConsent/RecordsOfConsentControl.js:168
 msgid "Opt-out"
 msgstr "Refus"
 
-#: functions.php:2473 settings/build/3078.d832b7256202088ed93e.js:1
+#: functions.php:2493 settings/build/3078.d832b7256202088ed93e.js:1
 #: settings/src/Settings/RecordsOfConsent/RecordsOfConsentControl.js:167
 msgid "Opt-in"
 msgstr "Accord"
@@ -3927,15 +3963,11 @@ msgctxt "Legal document cookie policy"
 msgid "We use statistics cookies to optimize the website experience for our users. With these statistics cookies we get insights in the usage of our website."
 msgstr "Nous utilisons des cookies statistiques afin d’optimiser l’expérience des internautes sur notre site web. Avec ces cookies statistiques, nous obtenons des informations sur l’utilisation de notre site web."
 
-#: cookiebanner/settings.php:268
-msgid "When dismiss on time out is enabled, the consent banner will be dismissed after 10 seconds, or the time you choose below."
-msgstr "Lorsque Refuser par temporisation est activé, la bannière de consentement sera ignorée après 10 secondes, ou le délai choisi ci-dessous."
-
-#: cookiebanner/settings.php:283
+#: cookiebanner/settings.php:271
 msgid "Timeout in seconds"
 msgstr "Délai avant expiration en secondes"
 
-#: cookiebanner/settings.php:267
+#: cookiebanner/settings.php:261
 msgid "Dismiss on time out"
 msgstr "Refuser par temporisation"
 
@@ -3946,10 +3978,6 @@ msgstr "Refuser lors du défilement"
 #: settings/config/fields/tools/data.php:34
 msgid "Are you sure? This will remove all Complianz data."
 msgstr "Confirmez-vous ? Cela supprimera toutes les données de Complianz."
-
-#: cookiebanner/settings.php:252
-msgid "When dismiss on scroll is enabled, the consent banner will be dismissed as soon as the user scrolls."
-msgstr "Lorsque « Refuser lors du défilement » est activé, la bannière de consentement sera ignorée dès que l’utilisateur fera défiler l’écran."
 
 #. Plugin URI of the plugin
 #: complianz-gpdr.php
@@ -4030,11 +4058,11 @@ msgstr "Sécurité & consentement"
 msgid "Financial incentives"
 msgstr "Motivations financières"
 
-#: config/config-i18n.php:333
+#: config/config-i18n.php:339
 msgid "Sex"
 msgstr "Sexe"
 
-#: config/config-i18n.php:334
+#: config/config-i18n.php:340
 msgid "Photos"
 msgstr "Photos"
 
@@ -4070,7 +4098,7 @@ msgstr "Vous pouvez utiliser ceci afin d’exporter vos réglages vers un autre 
 msgid "It is necessary to fulfill a task concerning public law"
 msgstr "Il est nécessaire de remplir une tâche relevant du droit public"
 
-#: config/config-i18n.php:331
+#: config/config-i18n.php:337
 msgid "Marital status"
 msgstr "Statut marital"
 
@@ -4119,7 +4147,7 @@ msgstr "Veuillez saisir une adresse e-mail valide."
 msgid "Sorry, it looks like you're a bot"
 msgstr "Désolé, on dirait que tu es un robot"
 
-#: config/config-i18n.php:335
+#: config/config-i18n.php:341
 msgid "Social Media accounts"
 msgstr "Comptes de Réseaux sociaux"
 
@@ -4127,7 +4155,7 @@ msgstr "Comptes de Réseaux sociaux"
 msgid "Email address"
 msgstr "Adresse e-mail"
 
-#: config/config-i18n.php:328 settings/build/3078.d832b7256202088ed93e.js:1
+#: config/config-i18n.php:334 settings/build/3078.d832b7256202088ed93e.js:1
 #: settings/src/Settings/RecordsOfConsent/RecordsOfConsentControl.js:225
 msgid "IP Address"
 msgstr "Adresse IP"
@@ -4175,7 +4203,7 @@ msgstr "Quelle(s) région(s) ciblez-vous avec votre site web ?"
 msgid "Indicate for what purpose personal data is processed via your website:"
 msgstr "Indiquez dans quelle finalité les données personnelles sont traitées via votre site web :"
 
-#: config/config-i18n.php:289
+#: config/config-i18n.php:295
 msgid "European Union (GDPR)"
 msgstr "Union Européenne (RGPD)"
 
@@ -4399,7 +4427,7 @@ msgctxt "Legal document cookie policy:paragraph title"
 msgid "Introduction"
 msgstr "Introduction"
 
-#: config/config-i18n.php:300
+#: config/config-i18n.php:306
 msgid "EU"
 msgstr "UE"
 
@@ -4413,159 +4441,159 @@ msgstr "UE"
 msgid "Privacy Statement"
 msgstr "Déclaration de confidentialité"
 
-#: config/config-i18n.php:359
+#: config/config-i18n.php:365
 msgid "other information concerning the child or the parents, combined with an identifier as described above"
 msgstr "autres informations concernant l’enfant ou les parents, associées à un identifiant tel que décrit ci-dessus"
 
-#: config/config-i18n.php:358
+#: config/config-i18n.php:364
 msgid "an identifier that permits the physical or online contacting of a child"
 msgstr "un identifiant permettant de contacter physiquement ou en ligne un enfant"
 
-#: config/config-i18n.php:357
+#: config/config-i18n.php:363
 msgid "a Social Security number"
 msgstr "un numéro de sécurité sociale"
 
-#: config/config-i18n.php:356
+#: config/config-i18n.php:362
 msgid "a telephone number"
 msgstr "un numéro de téléphone"
 
-#: config/config-i18n.php:355
+#: config/config-i18n.php:361
 msgid "an email address from the parent or guardian"
 msgstr "une adresse e-mail du parent ou du tuteur"
 
-#: config/config-i18n.php:354
+#: config/config-i18n.php:360
 msgid "an email address from the child"
 msgstr "une adresse e-mail de l’enfant"
 
-#: config/config-i18n.php:353
+#: config/config-i18n.php:359
 msgid "a home or other physical address including street name and name of a city or town"
 msgstr "un domicile ou une autre adresse physique, incluant le nom d’une rue et le nom d’une ville ou d’un village"
 
-#: config/config-i18n.php:352
+#: config/config-i18n.php:358
 msgid "a first and last name"
 msgstr "un prénom et un nom de famille"
 
-#: config/config-i18n.php:330
+#: config/config-i18n.php:336
 msgid "Geolocation data"
 msgstr "Données de géolocalisation"
 
-#: config/config-i18n.php:329
+#: config/config-i18n.php:335
 msgid "Internet activity information, including, but not limited to, browsing history, search history, and information regarding a consumer's interaction with an Internet Web site, application, or advertisement"
 msgstr "Informations sur l’activité internet, y compris, mais sans s’y limiter, l’historique de navigation, l’historique de recherche et les informations concernant l’interaction d’un consommateur avec un site web, une application ou une publicité internet"
 
-#: config/config-i18n.php:350
+#: config/config-i18n.php:356
 msgid "Biometric information"
 msgstr "Information biométrique"
 
-#: config/config-i18n.php:349
+#: config/config-i18n.php:355
 msgid "Commercial information, including records of personal property, products or services purchased, obtained, or considered"
 msgstr "Informations commerciales, y compris les enregistrements de biens personnels, produits ou services achetés, obtenus ou considérés"
 
-#: config/config-i18n.php:348
+#: config/config-i18n.php:354
 msgid "Health insurance information"
 msgstr "Informations sur l’assurance maladie"
 
-#: config/config-i18n.php:347
+#: config/config-i18n.php:353
 msgid "Medical information"
 msgstr "Information médicale"
 
-#: config/config-i18n.php:346
+#: config/config-i18n.php:352
 msgid "Financial information such as bank account number or credit card number"
 msgstr "Information financière telle qu’un numéro de compte bancaire ou de carte de crédit"
 
-#: config/config-i18n.php:345
+#: config/config-i18n.php:351
 msgid "Employment history"
 msgstr "Parcours professionnel"
 
-#: config/config-i18n.php:344
+#: config/config-i18n.php:350
 msgid "Professional or employment-related information"
 msgstr "Informations professionnelles ou liées à l’emploi"
 
-#: config/config-i18n.php:343
+#: config/config-i18n.php:349
 msgid "Education information"
 msgstr "Informations sur l’éducation"
 
-#: config/config-i18n.php:342
+#: config/config-i18n.php:348
 msgid "Insurance policy number"
 msgstr "Numéro de police d’assurance"
 
-#: config/config-i18n.php:341
+#: config/config-i18n.php:347
 msgid "State identification card number"
 msgstr "Numéro de carte d’identité"
 
-#: config/config-i18n.php:340
+#: config/config-i18n.php:346
 msgid "Driver's license"
 msgstr "Permis de conduire"
 
-#: config/config-i18n.php:339
+#: config/config-i18n.php:345
 msgid "Passport number"
 msgstr "Numéro de passeport"
 
-#: config/config-i18n.php:338
+#: config/config-i18n.php:344
 msgid "Physical characteristics or description"
 msgstr "Caractéristiques physiques ou description"
 
-#: config/config-i18n.php:337
+#: config/config-i18n.php:343
 msgid "A signature"
 msgstr "Une signature"
 
-#: config/config-i18n.php:336
+#: config/config-i18n.php:342
 msgid "A social security number"
 msgstr "Un numéro de sécurité sociale"
 
-#: config/config-i18n.php:327
+#: config/config-i18n.php:333
 msgid "A telephone number"
 msgstr "Un numéro de téléphone"
 
-#: config/config-i18n.php:326
+#: config/config-i18n.php:332
 msgid "An email address"
 msgstr "Une adresse e-mail"
 
-#: config/config-i18n.php:325
+#: config/config-i18n.php:331
 msgid "A home or other physical address, including street name and name of a city or town"
 msgstr "Un domicile ou une autre adresse physique, incluant le nom d’une rue et le nom d’une ville ou d’un village"
 
-#: config/config-i18n.php:324
+#: config/config-i18n.php:330
 msgid "Account name or alias"
 msgstr "Nom du compte ou pseudonyme"
 
-#: config/config-i18n.php:323
+#: config/config-i18n.php:329
 msgid "A first and last name"
 msgstr "Un prénom et un nom de famille"
 
-#: config/config-i18n.php:320
+#: config/config-i18n.php:326
 msgid "To be able to offer personalized products and services"
 msgstr "Pour pouvoir proposer des produits et services personnalisés"
 
-#: config/config-i18n.php:319
+#: config/config-i18n.php:325
 msgid "Compiling and analyzing statistics for website improvement."
 msgstr "Compiler et analyser des statistiques pour l’amélioration du site web."
 
-#: config/config-i18n.php:318
+#: config/config-i18n.php:324
 msgid "To be able to comply with legal obligations"
 msgstr "Pour pouvoir se conformer aux obligations légales"
 
-#: config/config-i18n.php:317
+#: config/config-i18n.php:323
 msgid "To support services or products that a customer wants to buy or has purchased"
 msgstr "Pour prendre en charge les services ou produits que votre client souhaite acheter ou a achetés"
 
-#: config/config-i18n.php:316
+#: config/config-i18n.php:322
 msgid "Newsletters"
 msgstr "Infolettres"
 
-#: config/config-i18n.php:315
+#: config/config-i18n.php:321
 msgid "Registering an account"
 msgstr "Enregistrement d’un compte"
 
-#: config/config-i18n.php:314
+#: config/config-i18n.php:320
 msgid "Payments"
 msgstr "Paiements"
 
-#: config/config-i18n.php:313
+#: config/config-i18n.php:319
 msgid "Contact - Through phone, mail, email and/or webforms"
 msgstr "Contact - Par téléphone, courrier, e-mail et/ou formulaires web"
 
-#: config/config-i18n.php:296
+#: config/config-i18n.php:302
 msgid "US"
 msgstr "États-Unis"
 
@@ -4614,7 +4642,7 @@ msgstr "Nom du %s avec lequel vous partagez les données"
 msgid "Your WordPress version does not support the functions needed for this step. You can upgrade to the latest WordPress version, or add the pages manually to a menu."
 msgstr "Votre version de WordPress ne prend pas en charge les fonctions nécessaires à cette étape. Vous pouvez effectuer une mise à niveau vers la dernière version de WordPress ou ajouter les pages manuellement à un menu."
 
-#: class-document.php:1095 documents/class-document.php:1110
+#: class-document.php:1095 documents/class-document.php:1116
 msgctxt "Subject in notification email"
 msgid "Your legal documents on %s need to be updated."
 msgstr "Vos documents juridiques sur %s doivent être mis à jour."
@@ -4632,7 +4660,7 @@ msgstr "État du système"
 msgid "Documents"
 msgstr "Documents"
 
-#: settings/settings.php:596
+#: settings/settings.php:601
 msgid "Data successfully cleared"
 msgstr "Les données ont bien été effacées"
 
@@ -4652,11 +4680,12 @@ msgstr "Si cette personne arrête la modification, le verrou expirera après %s 
 msgid "Start"
 msgstr "Démarrage"
 
+#. translators: %s is the plugin name.
 #: integrations/plugins/beehive.php:42
 #: integrations/plugins/caos-host-analytics-local.php:89
-#: integrations/plugins/google-analytics-dashboard-for-wp.php:72
-#: integrations/plugins/monsterinsights.php:62
-#: integrations/plugins/woocommerce-google-analytics-integration.php:79
+#: integrations/plugins/google-analytics-dashboard-for-wp.php:92
+#: integrations/plugins/monsterinsights.php:74
+#: integrations/plugins/woocommerce-google-analytics-integration.php:101
 #: integrations/plugins/woocommerce-google-analytics-pro.php:92
 msgid "You use %s, which means the answer to this question should be Google Analytics."
 msgstr "Vous utilisez %s, ce qui signifie que la réponse à cette question devrait être Google Analytics."
@@ -4667,6 +4696,10 @@ msgstr "Vous utilisez %s, ce qui signifie que la réponse à cette question devr
 msgctxt "Legal document cookie policy"
 msgid "When you visit our website for the first time, we will show you a pop-up with an explanation about cookies. As soon as you click on \"%s\", you consent to us using the categories of cookies and plug-ins you selected in the pop-up, as described in this Cookie Policy. You can disable the use of cookies via your browser, but please note that our website may no longer work properly."
 msgstr "Lorsque vous visitez notre site web pour la première fois, nous vous montrerons une fenêtre contextuelle avec une explication sur les cookies. Dès que vous cliquez sur « %s » vous nous autorisez à utiliser les catégories de cookies et d’extensions que vous avez sélectionnés dans la fenêtre contextuelle, comme décrit dans la présente politique de cookies. Vous pouvez désactiver l’utilisation des cookies via votre navigateur, mais veuillez noter que notre site web pourrait ne plus fonctionner correctement."
+
+#: cookiebanner/settings.php:750
+msgid "Settings text"
+msgstr "Texte des réglages"
 
 #: DNSMPD/class-DNSMPD.php:279 settings/build/1624.01b1c5264a5e8bef49f1.js:1
 #: settings/src/Settings/DataRequests/DatarequestsControl.js:182
@@ -4683,13 +4716,13 @@ msgstr "E-mail"
 msgid "Download"
 msgstr "Télécharger"
 
-#: cookiebanner/settings.php:699
+#: cookiebanner/settings.php:778
 msgid "Use Custom CSS"
 msgstr "Utiliser du CSS personnalisé"
 
 #: class-field.php:2493 class-field.php:2842
-#: cookiebanner/class-cookiebanner.php:840 cookiebanner/settings.php:997
-#: cookiebanner/settings.php:1000 cookiebanner/settings.php:1001
+#: cookiebanner/class-cookiebanner.php:840 cookiebanner/settings.php:1076
+#: cookiebanner/settings.php:1079 cookiebanner/settings.php:1080
 #: settings/config/menu.php:118 settings/config/menu.php:453
 #: settings/config/menu.php:464 gutenberg/build/index.js:1
 #: gutenberg/src/index.js:357 settings/build/1137.d41a8b71772cb6b6b503.js:1
@@ -4706,8 +4739,8 @@ msgid "Statistics"
 msgstr "Statistiques"
 
 #: class-field.php:2504 class-field.php:2853
-#: cookiebanner/class-cookiebanner.php:844 cookiebanner/settings.php:1062
-#: cookiebanner/settings.php:1065 cookiebanner/settings.php:1066
+#: cookiebanner/class-cookiebanner.php:844 cookiebanner/settings.php:1141
+#: cookiebanner/settings.php:1144 cookiebanner/settings.php:1145
 #: gutenberg/build/index.js:1 gutenberg/src/index.js:358
 #: settings/build/1137.d41a8b71772cb6b6b503.js:1
 #: settings/build/1356.47a194349e5cee442354.js:1
@@ -4719,12 +4752,12 @@ msgstr "Statistiques"
 msgid "Marketing"
 msgstr "Marketing"
 
-#: cookiebanner/settings.php:889 cookiebanner/settings.php:890
-#: cookiebanner/settings.php:891
+#: cookiebanner/settings.php:968 cookiebanner/settings.php:969
+#: cookiebanner/settings.php:970
 msgid "Save preferences"
 msgstr "Enregistrer les préférences"
 
-#: cookiebanner/settings.php:302
+#: cookiebanner/settings.php:289
 msgid "Center"
 msgstr "Centre"
 
@@ -4817,7 +4850,7 @@ msgstr "par ex. des services comme Google Fonts, Maps ou reCAPTCHA placent habit
 msgid "Does your website use third-party services?"
 msgstr "Votre site web utilise-t-il les services d’une tierce partie ?"
 
-#: cookiebanner/settings.php:711 settings/config/fields/tools/documents.php:41
+#: cookiebanner/settings.php:790 settings/config/fields/tools/documents.php:41
 #: settings/config/menu.php:224
 msgid "Custom CSS"
 msgstr "CSS personnalisé"
@@ -4890,17 +4923,21 @@ msgstr "Exporter les données personnelles"
 msgid "Create Processing Agreements"
 msgstr "Créer des accords de traitements"
 
-#: settings/config/menu.php:281 settings/settings.php:354
-#: settings/settings.php:355 settings/build/3518.c39c508126fbf4701fb6.js:1
+#: settings/config/menu.php:281 settings/settings.php:359
+#: settings/settings.php:360 settings/build/3518.c39c508126fbf4701fb6.js:1
 #: settings/build/4570.dedb4dde2dccc3188414.js:1
 #: settings/build/8596.9b42544648802b678f6d.js:1
 #: settings/src/Dashboard/Tools/ToolsHeader.js:38
 msgid "Tools"
 msgstr "Outils"
 
-#: class-admin.php:220 settings/settings.php:369
+#: class-admin.php:220 settings/settings.php:374
 msgid "Upgrade to premium"
 msgstr "Mettre à niveau vers la version premium"
+
+#: cookiebanner/settings.php:734
+msgid "Accept text"
+msgstr "Accepter le texte"
 
 #: functions.php:491 settings/build/5016.86c12b6af899e8605bab.js:1
 #: settings/src/Settings/ChangeStatus.js:4
@@ -4912,7 +4949,7 @@ msgstr "Révoquer"
 msgid "https://www.complianz.io"
 msgstr "https://www.complianz.io"
 
-#: cookiebanner/settings.php:511 functions.php:726 settings/config/menu.php:27
+#: cookiebanner/settings.php:498 functions.php:726 settings/config/menu.php:27
 #: settings/config/menu.php:191 settings/config/menu.php:204
 #: settings/config/menu.php:257 settings/config/menu.php:261
 #: settings/config/menu.php:347 settings/config/menu.php:418
@@ -5010,6 +5047,26 @@ msgctxt "Legal document cookie policy"
 msgid "A web beacon (or a pixel tag) is a small, invisible piece of text or image on a website that is used to monitor traffic on a website. In order to do this, various data about you is stored using web beacons."
 msgstr "Une balise invisible (ou balise web) est un petit morceau de texte ou d’image invisible sur un site web, utilisé pour suivre le trafic sur un site web. Pour ce faire, diverses données vous concernant sont stockées à l’aide de balises invisibles."
 
+#: config/config-i18n.php:279
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: config/config-i18n.php:278
+msgid "Zambia"
+msgstr "Zambie"
+
+#: config/config-i18n.php:277
+msgid "Yemen"
+msgstr "Yémen"
+
+#: config/config-i18n.php:276
+msgid "Western Sahara"
+msgstr "Sahara occidental"
+
+#: config/config-i18n.php:275
+msgid "Wallis And Futuna"
+msgstr "Wallis-et-Futuna"
+
 #: config/documents/cookie-policy-ca.php:32
 msgctxt "Legal document cookie policy"
 msgid "We have made agreements about the use of cookies with other companies that place cookies. However, we cannot guarantee that these third parties handle your personal data in a reliable or secure manner. Parties such as Google are to be considered as independent data controllers. We recommend that you read the privacy statements of these companies."
@@ -5038,26 +5095,6 @@ msgstr "Un cookie est un petit fichier simple envoyé avec les pages de ce site 
 msgctxt "Legal document cookie policy"
 msgid "Our website, %s (hereinafter: \"the website\") uses cookies and other related technologies (for convenience all technologies are referred to as \"cookies\"). Cookies are also placed by third parties we have engaged. In the document below we inform you about the use of cookies on our website."
 msgstr "Notre site web, %s (ci-après : « le site web ») utilise des cookies et autres technologies liées (par simplification, toutes ces technologies sont désignées par le terme « cookies »). Des cookies sont également placés par des tierces parties que nous avons engagées. Dans le document ci-dessous, nous vous informons de l’utilisation des cookies sur notre site web."
-
-#: config/config-i18n.php:279
-msgid "Zimbabwe"
-msgstr "Zimbabwe"
-
-#: config/config-i18n.php:278
-msgid "Zambia"
-msgstr "Zambie"
-
-#: config/config-i18n.php:277
-msgid "Yemen"
-msgstr "Yémen"
-
-#: config/config-i18n.php:276
-msgid "Western Sahara"
-msgstr "Sahara occidental"
-
-#: config/config-i18n.php:275
-msgid "Wallis And Futuna"
-msgstr "Wallis-et-Futuna"
 
 #: config/config-i18n.php:274
 msgid "Virgin Islands, U.S."
@@ -5091,12 +5128,12 @@ msgstr "Uruguay"
 msgid "United States Outlying Islands"
 msgstr "Îles mineures éloignées des États-Unis"
 
-#: config/config-i18n.php:266 config/config-i18n.php:291
-#: config/config-i18n.php:297
+#: config/config-i18n.php:266 config/config-i18n.php:297
+#: config/config-i18n.php:303
 msgid "United States"
 msgstr "États-Unis"
 
-#: config/config-i18n.php:265 config/config-i18n.php:303
+#: config/config-i18n.php:265 config/config-i18n.php:309
 msgid "United Kingdom"
 msgstr "Royaume-Uni"
 
@@ -5208,7 +5245,7 @@ msgstr "Espagne"
 msgid "South Georgia And Sandwich Isl."
 msgstr "Géorgie du Sud et les îles Sandwich."
 
-#: config/config-i18n.php:237 config/config-i18n.php:308
+#: config/config-i18n.php:237 config/config-i18n.php:314
 msgid "South Africa"
 msgstr "Afrique du Sud"
 
@@ -5860,7 +5897,7 @@ msgstr "Îles Caïmans"
 msgid "Cape Verde"
 msgstr "Cap-Vert"
 
-#: config/config-i18n.php:73 config/config-i18n.php:299
+#: config/config-i18n.php:73 config/config-i18n.php:305
 msgid "Canada"
 msgstr "Canada"
 
@@ -5892,7 +5929,7 @@ msgstr "Brunei"
 msgid "British Indian Ocean Territory"
 msgstr "Territoire britannique de l’océan Indien"
 
-#: config/config-i18n.php:65 config/config-i18n.php:311
+#: config/config-i18n.php:65 config/config-i18n.php:317
 msgid "Brazil"
 msgstr "Brésil"
 
@@ -5960,7 +5997,7 @@ msgstr "Azerbaïdjan"
 msgid "Austria"
 msgstr "Autriche"
 
-#: config/config-i18n.php:48 config/config-i18n.php:306
+#: config/config-i18n.php:48 config/config-i18n.php:312
 msgid "Australia"
 msgstr "Australie"
 
@@ -6021,7 +6058,7 @@ msgstr "Afghanistan"
 msgid "Default"
 msgstr "Par défaut"
 
-#: cookiebanner/settings.php:350
+#: cookiebanner/settings.php:337
 msgid "Classic"
 msgstr "Classique"
 
@@ -6037,20 +6074,20 @@ msgstr "Classique"
 msgid "Read more"
 msgstr "Lire la suite"
 
-#: cookiebanner/settings.php:589 cookiebanner/settings.php:805
-#: cookiebanner/settings.php:807 cookiebanner/settings.php:822
-#: cookiebanner/settings.php:826 integrations/plugins/gravity-forms.php:130
+#: cookiebanner/settings.php:632 cookiebanner/settings.php:884
+#: cookiebanner/settings.php:886 cookiebanner/settings.php:901
+#: cookiebanner/settings.php:905 integrations/plugins/gravity-forms.php:130
 #: integrations/plugins/gravity-forms.php:135
 #: integrations/plugins/gravity-forms.php:136
 msgid "Accept"
 msgstr "Accepter"
 
-#: cookiebanner/settings.php:616 cookiebanner/settings.php:843
-#: cookiebanner/settings.php:847
+#: cookiebanner/settings.php:659 cookiebanner/settings.php:922
+#: cookiebanner/settings.php:926
 msgid "Deny"
 msgstr "Refuser"
 
-#: cookiebanner/settings.php:913 cookiebanner/settings.php:1109
+#: cookiebanner/settings.php:992 cookiebanner/settings.php:1188
 msgid "Cookie message"
 msgstr "Message sur les cookies"
 
@@ -6097,7 +6134,7 @@ msgstr "Oui"
 #: settings/build/8525.433647e550a4b16270cb.js:1
 #: settings/src/Onboarding/Onboarding.js:135
 #: settings/src/Settings/DataBreachReports/CreateDataBreachReport.js:178
-#: settings/src/Settings/ProcessingAgreements/CreateProcessingAgreements.js:197
+#: settings/src/Settings/ProcessingAgreements/CreateProcessingAgreements.js:209
 #: settings/src/Settings/Settings.js:231 settings/src/Tour/Tour.js:67
 #: settings/src/Tour/Tour.js:90 settings/src/Tour/Tour.js:114
 #: settings/src/Tour/Tour.js:137 settings/src/Tour/Tour.js:160
@@ -6112,7 +6149,7 @@ msgstr "Précédent"
 #: settings/build/6281.61ad008ffae13664155d.js:1
 #: settings/src/Settings/DataBreachReports/CreateDataBreachReport.js:189
 #: settings/src/Settings/Finish/FinishControl.js:62
-#: settings/src/Settings/ProcessingAgreements/CreateProcessingAgreements.js:208
+#: settings/src/Settings/ProcessingAgreements/CreateProcessingAgreements.js:220
 #: settings/src/Settings/Settings.js:272
 msgid "Finish"
 msgstr "Terminer"
@@ -6188,30 +6225,6 @@ msgstr "Description"
 msgid "Add new"
 msgstr "Ajouter"
 
-#: class-field.php:1848
-msgid "Choose an option"
-msgstr "Choisissez une option"
-
-#: class-field.php:620
-msgid "This field is required. Please complete the question before continuing"
-msgstr "Ce champ est obligatoire. Veuillez répondre à la question avant de continuer"
-
-#: class-document.php:858 documents/class-document.php:902
-msgid "and"
-msgstr "et"
-
-#: class-document.php:726 documents/class-document.php:791
-msgid "(See annex %s)"
-msgstr "(Voir l’annexe %s)"
-
-#: class-document.php:720 documents/class-document.php:785
-msgid "(See paragraph %s)"
-msgstr "(Voir le paragraphe %s)"
-
-#: class-document.php:590 documents/class-document.php:659
-msgid "Annex"
-msgstr "Annexe"
-
 #: class-field.php:1974 class-field.php:2230 class-field.php:2341
 #: class-field.php:2555 class-field.php:2960 class-field.php:3070
 #: class-wizard.php:114 class-wizard.php:741
@@ -6228,11 +6241,35 @@ msgstr "Annexe"
 #: settings/src/Settings/DataBreachReports/CreateDataBreachReport.js:150
 #: settings/src/Settings/DataBreachReports/CreateDataBreachReport.js:200
 #: settings/src/Settings/Integrations/ThirdPartyScript.js:100
-#: settings/src/Settings/ProcessingAgreements/CreateProcessingAgreements.js:164
-#: settings/src/Settings/ProcessingAgreements/CreateProcessingAgreements.js:214
+#: settings/src/Settings/ProcessingAgreements/CreateProcessingAgreements.js:171
+#: settings/src/Settings/ProcessingAgreements/CreateProcessingAgreements.js:226
 #: settings/src/Settings/Settings.js:238
 msgid "Save"
 msgstr "Enregistrer"
+
+#: class-field.php:1848
+msgid "Choose an option"
+msgstr "Choisissez une option"
+
+#: class-field.php:620
+msgid "This field is required. Please complete the question before continuing"
+msgstr "Ce champ est obligatoire. Veuillez répondre à la question avant de continuer"
+
+#: class-document.php:858 documents/class-document.php:908
+msgid "and"
+msgstr "et"
+
+#: class-document.php:726 documents/class-document.php:797
+msgid "(See annex %s)"
+msgstr "(Voir l’annexe %s)"
+
+#: class-document.php:720 documents/class-document.php:791
+msgid "(See paragraph %s)"
+msgstr "(Voir le paragraphe %s)"
+
+#: class-document.php:590 documents/class-document.php:665
+msgid "Annex"
+msgstr "Annexe"
 
 #: class-document.php:1682 class-document.php:1743 class-document.php:1763
 #: settings/build/2302.a1257a2ff8404e29dc9f.js:1
@@ -6252,13 +6289,13 @@ msgid "%s at %s"
 msgstr "%s à %s"
 
 #: settings/config/menu.php:17 settings/settings.php:58
-#: settings/settings.php:320 settings/settings.php:321
+#: settings/settings.php:325 settings/settings.php:326
 #: settings/build/8525.433647e550a4b16270cb.js:1 settings/src/Tour/Tour.js:61
 msgid "Dashboard"
 msgstr "Tableau de bord"
 
-#: settings/config/menu.php:22 settings/settings.php:329
-#: settings/settings.php:330
+#: settings/config/menu.php:22 settings/settings.php:334
+#: settings/settings.php:335
 msgid "Wizard"
 msgstr "Assistant"
 
@@ -6268,15 +6305,15 @@ msgid "Complianz"
 msgstr "Complianz"
 
 #: class-admin.php:214 settings/config/menu.php:285
-#: settings/config/menu.php:289 settings/build/index.8f676c1be76873344485.js:1
+#: settings/config/menu.php:289 settings/build/index.1606e098458857db3903.js:1
 #: settings/src/Header.js:32
 msgid "Support"
 msgstr "Support"
 
-#: class-admin.php:207 cookiebanner/settings.php:649
+#: class-admin.php:207 cookiebanner/settings.php:692
 #: settings/config/menu.php:252 settings/config/menu.php:321
-#: settings/config/menu.php:337 settings/settings.php:346
-#: settings/settings.php:347
+#: settings/config/menu.php:337 settings/settings.php:351
+#: settings/settings.php:352
 msgid "Settings"
 msgstr "Réglages"
 
@@ -6307,10 +6344,6 @@ msgstr "Expiration de la bannière de consentement en jours"
 msgid "Your site requires a consent banner, which has been enabled."
 msgstr "Votre site nécessite une bannière de consentement, qui a été activée."
 
-#: mailer/class-mail.php:51
-msgid "Email address not valid"
-msgstr "Adresse e-mail non valide."
-
 #: config/documents/cookie-policy-br.php:159
 #: config/documents/cookie-policy-ca.php:163
 #: config/documents/cookie-policy-eu.php:177
@@ -6319,6 +6352,10 @@ msgstr "Adresse e-mail non valide."
 msgctxt "Legal document cookie policy"
 msgid "Please note that our website may not work properly if all cookies are disabled. If you do delete the cookies in your browser, they will be placed again after your consent when you visit our website again."
 msgstr "Veuillez noter que notre site web peut ne pas marcher correctement si tous les cookies sont désactivés. Si vous supprimez les cookies dans votre navigateur, ils seront de nouveau placés après votre consentement lorsque vous revisiterez notre site web."
+
+#: mailer/class-mail.php:51
+msgid "Email address not valid"
+msgstr "Adresse e-mail non valide."
 
 #: config/documents/cookie-policy-br.php:32
 #: config/documents/cookie-policy-eu.php:32
